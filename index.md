@@ -12,3 +12,4 @@ THis is a heading made of code scaffolding.
 ``` markdown
 
 ![image](https://github.com/user-attachments/assets/f4c2f5e1-ef29-4d0a-85b3-33f99eb29880)
+ 
