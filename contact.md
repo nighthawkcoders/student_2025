@@ -2,26 +2,50 @@
 layout: base
 title: Liverpool FC
 description: Contact Page
-hide: true
 ---
+
 <!-- Navbar -->
-<style>
-.navbar {
-    background-color: black;
-    padding: 15px;
-    text-align: center;
-}
-.navbar a {
-    color: red;
-    text-decoration: none;
-    margin: 0 15px;
-}
-</style>
-<div class ="navbar">
-  <a href="#home.md">Home</a>
-  <a href="about.md">About</a>
-  <a href="players.md">Players</a>
-  <a href="history.md">History</a>
-  <a href="transfers.md">Transfers</a>
-  <a href="contact.md">Contact</a>
-</div>
+  [Home](index.md) 
+  [About](about.md) 
+  [Players](players.md) 
+  [History](history.md) 
+  [Transfers](transfers.md) 
+  [Contact](contact.md)
+
+## Liverpool Contact Information and Fan Accounts
+
+This page provides essential contact information for Liverpool FC, including supporter services, club inquiries, and popular fan accounts on social media.
+
+### Liverpool FC Contact Information
+
+#### General Contact Details
+
+- **Address:**  
+  Liverpool Football Club  
+  Anfield Road,  
+  Liverpool, L4 0TH,  
+  England
+
+- **Main Switchboard:**  
+  +44 151 263 2361
+
+- **Ticket Office / Booking Line:**  
+  +44 843 170 5555
+
+- **Customer Services / Memberships:**  
+  +44 843 170 5000
+
+- **Email for Club Enquiries:**  
+  customerservices@liverpoolfc.com
+
+#### Supporter Services
+
+For assistance with ticketing, membership, or general inquiries:
+
+- **Live Chat:** Available on the Liverpool FC website (requires cookies to be enabled).
+
+- **Email:** Fill out the contact form on the [Help Centre](https://www.liverpoolfc.com/info/contact-us) for a response within 48 hours.
+
+- **Social Media:**  
+  - **X (formerly Twitter):** [@LFCHelp](https://twitter.com/LFCHelp) for updates and support (aim to respond within 4 hours).  
+  - **Facebook:** Message

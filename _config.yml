@@ -4,6 +4,7 @@ owner_name: John Mortensen
 github_username: nighthawkcoders
 github_repo: "student_2025" 
 baseurl: "/student_2025"
+
 future: true
 remote_theme: jekyll/minima
 minima:
@@ -24,3 +25,9 @@ header_pages:
   - navigation/search.md
   - navigation/about.md
   - README4YML.md
+
+baseurl: "/players.md"
+baseurl: "/transfers.md"
+baseurl: "/contact.md"
+baseurl: "/about.md"
+baseurl: "/history.md"
