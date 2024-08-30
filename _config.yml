@@ -5,7 +5,7 @@ github_username: nighthawkcoders
 github_repo: "manahil_student_2025" 
 baseurl: "/manahil_2025"
 future: true
-remote_theme: jekyll/minima
+remote_theme: pages-themes/time-machine@v0.2.0
 minima:
   skin: dark
   social_links:
@@ -24,3 +24,4 @@ header_pages:
   - navigation/search.md
   - navigation/about.md
   - README4YML.md
+
