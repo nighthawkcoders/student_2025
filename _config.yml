@@ -1,4 +1,4 @@
-title: Nighthawk Pages 
+title: Yash's Pages 
 description: "Class of 2025"
 owner_name: John Mortensen
 github_username: nighthawkcoders
@@ -21,13 +21,14 @@ minima:
 plugins:
   - jekyll-remote-theme
 header_pages:
+  - navigation/liverpool.md
+  - navigation/players.md
+  - navigation/transfers.md
+  - navigation/contact.md
+  - navigation/history.md
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
   - README4YML.md
 
-baseurl: "/players.md"
-baseurl: "/transfers.md"
-baseurl: "/contact.md"
-baseurl: "/about.md"
-baseurl: "/history.md"
+

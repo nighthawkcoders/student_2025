@@ -1,16 +1,10 @@
 ---
 layout: base
-title: Liverpool FC
+title: Players
 description: Players Page
 
 ---
-<!-- Navbar -->
-  [Home](index.md) 
-  [About](about.md) 
-  [Players](players.md) 
-  [History](history.md) 
-  [Transfers](transfers.md) 
-  [Contact](contact.md)
+
 
 # Liverpool FC Main Squad 2024/25
 

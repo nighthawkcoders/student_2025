@@ -1,16 +1,9 @@
 ---
 layout: base
-title: Liverpool FC
+title: Transfers
 description: Transfers Page
 
 ---
-<!-- Navbar -->
-  [Home](index.md) 
-  [About](about.md) 
-  [Players](players.md) 
-  [History](history.md) 
-  [Transfers](transfers.md) 
-  [Contact](contact.md)
 
 
 ## Liverpool Transfer News and Speculations

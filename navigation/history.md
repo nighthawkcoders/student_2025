@@ -1,15 +1,9 @@
 ---
 layout: base
-title: Liverpool FC
+title: History
 description: History Page
 ---
-<!-- Navbar -->
-  [Home](index.md) 
-  [About](about.md) 
-  [Players](players.md) 
-  [History](history.md) 
-  [Transfers](transfers.md) 
-  [Contact](contact.md)
+
 
 # Liverpool FC History
 
