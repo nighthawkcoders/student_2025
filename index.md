@@ -17,7 +17,7 @@ hide: true
     <p style="color:white; font-family:serif; font-size:48px">Nighthawk Page: Zoe He</p>
     <h1 style="color:white; font-faimly:serif;"> Hi, my name is Zoe!</h1>
     <marquee direction = right>
-        <img src="mario_walking.gif">
+        <img src="mario_walking.gif" alt="mario walking" width="200" height="200">
     </marquee>
     </div>
 <!--<img src="picture_of_my_dog.png" alt="picture" class="center" width="426px" height="619px"> -->
