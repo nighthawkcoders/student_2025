@@ -5,6 +5,16 @@ description: Home Page
 hide: true
 ---
 
+<!-- Navbar -->
+<div style="background-color: black; padding: 15px; text-align: center;">
+  <a href="{{ site.baseurl }}/index.html" style="color: red; text-decoration: none; margin: 0 15px;">Home</a>
+  <a href="{{ site.baseurl }}/about.html" style="color: red; text-decoration: none; margin: 0 15px;">About</a>
+  <a href="{{ site.baseurl }}/players.html" style="color: red; text-decoration: none; margin: 0 15px;">Players</a>
+  <a href="{{ site.baseurl }}/history.html" style="color: red; text-decoration: none; margin: 0 15px;">History</a>
+  <a href="{{ site.baseurl }}/navigation/contact.md" style="color: red; text-decoration: none; margin: 0 15px;">Transfers</a>
+  <a href="{{ site.baseurl }}/contact.html" style="color: red; text-decoration: none; margin: 0 15px;">Contact</a>
+</div>
+
 # Liverpool Football Club
 
 ![Liverpool FC Crest](https://example.com/liverpool_crest.png)
@@ -64,6 +74,4 @@ Experience the history and atmosphere of Anfield with our guided tours. [Book a 
 
 ### Follow Us
 
-[![Twitter](https://example.com/twitter_icon.png)](https://twitter.com/LFC)
-[![Facebook](https://example.com/facebook_icon.png)](https://www.facebook.com/LiverpoolFC)
-[![Instagram](https://example.com/instagram_icon.png)](https://www.instagram.com/liverpoolfc/)
+[![Twitter](https://example.com/twitter_ic
