@@ -1,5 +1,4 @@
 <!-- Liquid:  statements -->
-
 <!-- Include submenu from _includes to top of pages. -->
 {% include nav/home.html %}
 <!--- Concatenation of site URL to frontmatter image  --->
