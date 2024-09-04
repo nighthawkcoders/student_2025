@@ -196,3 +196,21 @@ THis is a heading made of code scaffolding.
 
 ![image](https://github.com/user-attachments/assets/f4c2f5e1-ef29-4d0a-85b3-33f99eb29880)
  
+ "<div class=\"grid-container\">\n",
+    "    <div class=\"grid-item\">\n",
+    "        <img src=\"https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg\" alt=\"California Flag\">\n",
+    "        <p>California - forever</p>\n",
+    "    </div>\n",
+    "    <div class=\"grid-item\">\n",
+    "        <img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg\" alt=\"Oregon Flag\">\n",
+    "        <p>Oregon - 9 years</p>\n",
+    "    </div>\n",
+    "    <div class=\"grid-item\">\n",
+    "        <img src=\"https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg\" alt=\"England Flag\">\n",
+    "        <p>England - 2 years</p>\n",
+    "    </div>\n",
+    "    <div class=\"grid-item\">\n",
+    "        <img src=\"https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg\" alt=\"Hawaii Flag\">\n",
+    "        <p>Hawaii - 2 years</p>\n",
+    "    </div>\n",
+    "</div>"
