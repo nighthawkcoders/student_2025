@@ -3,7 +3,13 @@ layout: base
 title: Players
 description: Liverpool FC Squad 2024/25
 ---
-
+<!-- Navbar -->
+<div style="background-color: black; padding: 15px; text-align: center;">
+  <a href="players.html" style="color: red; text-decoration: none; margin: 0 15px;">Players</a>
+  <a href="history.html" style="color: red; text-decoration: none; margin: 0 15px;">History</a>
+  <a href="transfers.html" style="color: red; text-decoration: none; margin: 0 15px;">Transfers</a>
+  <a href="contact.html" style="color: red; text-decoration: none; margin: 0 15px;">Contact</a>
+</div>
 <h1>Liverpool FC Main Squad 2024/25</h1>
 
 <h2>Goalkeepers</h2>
