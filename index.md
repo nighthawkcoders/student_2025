@@ -6,6 +6,23 @@ hide: true
 ---
 
 # Yash's Page
+<p>This is a button</p>
+<button>Button</button>
+
+<div style="padding-top: 33px;">
+<a href="./navigation/liverpool.html" style="display: inline-block; padding: 10px 60px; background-color: red; color: black; text-decoration: underline; border-radius: 5px;">Liverpool FC</a>
+</div>
+<div style="padding-top: 6px;">
+<a href="./navigation/journey.md.html" style="display: inline-block; padding: 10px 50px; background-color: black; color: white; text-decoration: underline; border-radius: 5px;">Journey</a>
+</div>
+<p>Click on these to see my Liverpool FC and Journey pages</p>
+
+
+
+
+
+
+
 
 ![Mario walking](https://media.giphy.com/media/12QMzVeF4QsqTC/giphy.gif)
 
@@ -35,3 +52,4 @@ hide: true
     to { transform: translateX(100vw); }
   }
 </style>
+
