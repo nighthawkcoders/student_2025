@@ -1,19 +1,23 @@
 ---
 layout: page
-title: About Me!
+title: About Me
 permalink: /about/
 ---
 <html>
 <head>
 <body>
-        <h1 style="font-size: 35px; color: rgb(255, 182, 193); font-family: serif;">
-            My name is Zoe, here's some things about me...
-        <p style="color: rgb(250, 177, 188); font-size: 20px">
-            My name is Zoe He. I'm a junior at Del Norte High School and my family is from China. I have a dog, a cat, and 3 parrots at home. One of my main hobbies is playing sports and I mainly play tennis and badminton. I like to read, cook/bake, and sketch in my free time. 
 <style>
-     p {text-align: center;}
-     
-</style>
-<style>
-     p {text-align: center;}
-</style>
+div {
+  background-color: rgb(180, 200, 235);
+  width: ;
+  length: ;
+  border: 2px solid rgb(234, 238, 255);
+  padding: ;
+  margin: ;
+  }
+  </style>
+  <div>
+    <p style="color: white; font-family:serif; font-size:35px" class="strong"> My name is Zoe, here's some things about me...</p>
+    <p style="color: white; font-family:ser; font-size:30px"> I'm a junior at Del Norte High School and I'm the public relations director of the DNHS Chess Club. I have a dog, a cat, and 3 parrots at home. One of my main hobbies is playing sports and I mainly play tennis and badminton. I like to read, cook/bake, and sketch in my free time. </p>
+ </div>
+ 
