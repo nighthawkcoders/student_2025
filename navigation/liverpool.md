@@ -1,77 +1,41 @@
 ---
 layout: base
-title: Home
-description: Home Page
-hide: true
+title: Liverpool FC
+description: Official Liverpool FC Home Page
 ---
 
 <!-- Navbar -->
 <div style="background-color: black; padding: 15px; text-align: center;">
-  <a href="{{ site.baseurl }}/index.html" style="color: red; text-decoration: none; margin: 0 15px;">Home</a>
-  <a href="{{ site.baseurl }}/about.html" style="color: red; text-decoration: none; margin: 0 15px;">About</a>
-  <a href="{{ site.baseurl }}/players.html" style="color: red; text-decoration: none; margin: 0 15px;">Players</a>
-  <a href="{{ site.baseurl }}/history.html" style="color: red; text-decoration: none; margin: 0 15px;">History</a>
-  <a href="{{ site.baseurl }}/navigation/contact.md" style="color: red; text-decoration: none; margin: 0 15px;">Transfers</a>
-  <a href="{{ site.baseurl }}/contact.html" style="color: red; text-decoration: none; margin: 0 15px;">Contact</a>
+  <a href="players.html" style="color: red; text-decoration: none; margin: 0 15px;">Players</a>
+  <a href="history.html" style="color: red; text-decoration: none; margin: 0 15px;">History</a>
+  <a href="transfers.html" style="color: red; text-decoration: none; margin: 0 15px;">Transfers</a>
+  <a href="contact.html" style="color: red; text-decoration: none; margin: 0 15px;">Contact</a>
 </div>
 
-# Liverpool Football Club
+<h1>Liverpool Football Club</h1>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png" alt="Liverpool FC Crest" style="width: 200px;">
 
-![Liverpool FC Crest](https://example.com/liverpool_crest.png)
+<h2>Welcome to Liverpool FC</h2>
+<p>Founded in 1892, Liverpool FC is one of the most iconic and successful football clubs in the world. Our home is the legendary Anfield stadium, where we continue to make history.</p>
 
-## Welcome to the Official Liverpool FC Website
-
-Founded in 1892, Liverpool FC is one of the most successful and historic football clubs in the world. We play our home matches at the iconic Anfield stadium.
-
-### Latest News
-
-- [Arne Slot's first pre-season with Liverpool underway](#)
-- [New signings settling in well, says captain Van Dijk](#)
-- [Ticket information for upcoming Premier League fixtures](#)
-
-![Team Photo](https://example.com/liverpool_team_photo.png)
+<h3>Latest News</h3>
+<ul>
+  <li><a href="#">Arne Slot's first pre-season with Liverpool underway</a></li>
+  <li><a href="#">New signings settling in well, says captain Van Dijk</a></li>
+  <li><a href="#">Ticket information for upcoming Premier League fixtures</a></li>
+</ul>
 
 ## Anfield Stadium
 
-![Anfield Stadium](https://example.com/anfield_stadium.png)
+![Anfield Stadium](https://www.leisureopportunities.co.uk/images/572951_28864.jpg)
 
-Anfield has been the home of Liverpool FC since our formation in 1892. Some key facts about our iconic stadium:
+Anfield is the historic home of Liverpool Football Club, known for its incredible atmosphere and passionate fans. Located in the heart of Liverpool, the stadium has been the club's home since its formation in 1892.
 
-- **Capacity:** 54,074
-- **Opening:** 1884 (Liverpool FC have played here since 1892)
-- **Record Attendance:** 61,905 (1952 vs Wolverhampton Wanderers)
-- **Famous Features:** The Kop, This Is Anfield sign, Shankly Gates
+### Key Facts:
+- **Capacity:** 53,394
+- **Opened:** 1884 (Liverpool's home since 1892)
+- **Famous Stand:** The Kop, known for its powerful chants and support
+- **Unique Feature:** "You'll Never Walk Alone" anthem sung before every match
+- **Significant Matches:** Numerous iconic European nights, including Liverpool’s 4-0 victory over Barcelona in the 2019 Champions League semi-final
 
-### Stadium Tours
-
-Experience the history and atmosphere of Anfield with our guided tours. [Book a tour here](#)
-
-## Upcoming Fixtures
-
-| Date | Competition | Opponent | Venue |
-|------|-------------|----------|-------|
-| Aug 12 | Premier League | Chelsea | Home |
-| Aug 19 | Premier League | Bournemouth | Away |
-| Aug 26 | Premier League | Newcastle | Home |
-
-[View Full Fixture List](#)
-
-## Club Information
-
-- **Full Name:** Liverpool Football Club
-- **Nickname:** The Reds
-- **Founded:** 1892
-- **Manager:** Arne Slot
-- **Captain:** Virgil van Dijk
-
-### Contact Us
-
-- **Address:** Anfield Road, Liverpool, L4 0TH, England
-- **Phone:** +44 (0) 151 263 2361
-- **Email:** customerservices@liverpoolfc.com
-
-[More Contact Information](#)
-
-### Follow Us
-
-[![Twitter](https://example.com/twitter_ic
+Anfield is more than just a football ground – it’s a symbol of pride and tradition for Liverpool fans around the world.

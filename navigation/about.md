@@ -47,3 +47,6 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/yashpatil
 - **LinkedIn:** [Yash Patil](https://www.linkedin.com/in/yashpatil21/)
 
 I'm always open to new opportunities, so don't hesitate to reach out!
+![India](https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png)
+
+![USA](https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg)

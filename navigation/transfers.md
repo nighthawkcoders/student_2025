@@ -1,70 +1,29 @@
 ---
 layout: base
 title: Transfers
-description: Transfers Page
-
+description: Liverpool FC Transfer News and Speculations
 ---
 
+<h1>Liverpool FC Transfers 2024/25</h1>
 
-## Liverpool Transfer News and Speculations
+<h2>Incoming Transfers</h2>
 
-Liverpool's transfer activity has been heating up as the club prepares for the 2024/25 season under new head coach Arne Slot. Here are the latest developments:
+### Federico Chiesa
+<img src="https://example.com/chiesa_liverpool.jpg" alt="Federico Chiesa" style="width: 200px;">
+- **Transfer Fee:** £10.7 million plus add-ons
+- **Position:** Winger
+- **Strengths:** Dribbling, progressive passing, direct play
+- Chiesa will provide cover for Mo Salah and add creativity to Liverpool's attack.
 
-### Incoming Transfers
+### Giorgi Mamardashvili
+<img src="https://example.com/mamardashvili_liverpool.jpg" alt="Giorgi Mamardashvili" style="width: 200px;">
+- **Position:** Goalkeeper
+- Details of the transfer are still emerging, but the Valencia goalkeeper is expected to become Liverpool's first summer signing.
 
-#### Federico Chiesa
+<h2>Outgoing Transfers</h2>
 
-![Federico Chiesa](https://example.com/chiesa_liverpool.jpg)
+### Joe Gomez
+- Gomez has been linked with a move away from Liverpool after being left out of recent match-day squads.
 
-Liverpool have agreed to sign Juventus winger Federico Chiesa for an initial fee of £10.7 million plus add-ons[1]. Key details include:
-
-- Personal terms agreed on a four-year contract
-- Medical scheduled in Merseyside
-- Expected to provide cover for Mo Salah on the right wing
-
-Chiesa's strengths:
-- Exceptional dribbler (top 1% in Europe's top 5 leagues)
-- Strong progressive passer (91st percentile)
-- Direct playing style
-
-**Potential Impact:** Chiesa could offer valuable depth and creativity to Liverpool's attack, provided he can stay fit[1].
-
-#### Giorgi Mamardashvili
-
-![Giorgi Mamardashvili](https://example.com/mamardashvili_liverpool.jpg)
-
-Reportedly set to become Liverpool's first summer signing, though details are still emerging[6].
-
-### Outgoing Transfers
-
-#### Joe Gomez
-
-The defender is rumored to be leaving Liverpool this summer after being left out of the match-day squad against Ipswich[3].
-
-### Transfer Window Overview
-
-- New era under Arne Slot
-- Focus on adding depth and creativity to the squad
-- Potential departures to make room for new signings
-
-As the transfer window progresses, more news and speculations are expected to emerge. Liverpool fans should stay tuned for further developments in the club's efforts to reinforce the squad for the upcoming season.
-
-## Legendary Liverpool Transfers from the Past
-
-### 1. Kenny Dalglish (1977)
-
-![Kenny Dalglish](https://example.com/dalglish_liverpool.jpg)
-
-Signed from Celtic for a then British record fee of £440,000, Dalglish became an iconic figure at Liverpool, winning numerous titles as both player and manager.
-
-### 2. Ian Rush (1980)
-
-![Ian Rush](https://example.com/rush_liverpool.jpg)
-
-Purchased from Chester City for £300,000, Rush went on to become Liverpool's all-time leading goalscorer with 346 goals.
-
-### 3. Virgil van Dijk (2018)
-
-![Virgil van Dijk](https://example.com/van_dijk_liverpool.jpg)
-
-Liverpool broke the world record for a defender when they signed Van Dijk from Southampton for £75 million. He has since been instrumental in the club's Premier League and Champions League successes.
+<h2>Transfer Window Overview</h2>
+- Under new manager Arne Slot, Liverpool is focused on adding depth and creativity to the squad while offloading players to make room for new signings.
