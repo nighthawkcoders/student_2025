@@ -196,20 +196,15 @@ he AP Computer Science pathway. This course focuses on teaching the JavaScript p
 This text below is my About me 
 
 ``` markdown 
-## Investing in Your Technical Future-About Me CSSE 
+## -About Me CSSE 
 
 > Class of 2028
 
-About me
-Amal Jinan
-Class of 2028
-Lived in San Diego Silicon Valley and Canada
-Has attended about 6 different schools
-1 sibling
-###Hobbies:
-###Soccer
-###Reading
-###Videogaming
+## About me Amal Jinan Class of 2028 Lived in San Diego Silicon Valley and Canada Has attended about 6 different schools 1 sibling
+## Hobbies:
+## Soccer
+## Reading
+## Videogaming
 ``` markdown
 
 ![image](https://github.com/user-attachments/assets/8e7e0410-0850-4c60-ad49-dcbdbdcdb64e)
