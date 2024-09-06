@@ -5,6 +5,9 @@ description: Picture Page
 hide: true
 permalink: /picture/
 ---
-<marquee direction="left">
-<img src="" alt="f">
-<marquee>
+<center>
+<p style="font-family: serif; color: p; font-size:48px" class="strong">This is my cat!</p>
+<br>
+<img src="{{site.baseurl}}/images/cat.png" alt="feifei">
+<br><br>
+</center>
