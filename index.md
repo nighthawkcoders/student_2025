@@ -195,7 +195,19 @@ Class of 2028
 Lived in San Diego Silicon Valley and Canada
 
 
+
 THis is a heading made of code scaffolding.
+About me
+Class of 2028
+Lived in San Diego Silicon Valley and Canada
+![image](https://github.com/user-attachments/assets/8e7e0410-0850-4c60-ad49-dcbdbdcdb64e)
+![image](https://github.com/user-attachments/assets/fe63f52c-9044-4e0d-ba56-3dd01eb2e307)
+Hobbies:
+Soccer
+Reading
+Videogaming
+
+
 ``` markdown
 
 ![image](https://github.com/user-attachments/assets/f4c2f5e1-ef29-4d0a-85b3-33f99eb29880)
