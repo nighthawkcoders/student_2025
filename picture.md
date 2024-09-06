@@ -6,5 +6,5 @@ hide: true
 permalink: /picture/
 ---
 <marquee direction="left">
-<img src="" alt="mario">
+<img src="" alt="f">
 <marquee>

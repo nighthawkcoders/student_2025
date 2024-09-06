@@ -254,7 +254,7 @@ hide: true
 <center>
 <img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
 <a href="http://127.0.0.1:4100/student_2025/picture/"
-    button class="button">Click here 
+    button class="button">Click here for  Cat
 </a>
 </center>
 <!--<img src="diudiu.png" alt="picture" class="center" width="50px" height="60px">-->
@@ -263,7 +263,7 @@ hide: true
   <div2 class="dropdown-content">
     <a href="http://127.0.0.1:4100/student_2025/about/">About Me</a>
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
-    <a href="http://127.0.0.1:4100/student_2025/picture/">A GIF</a>
+    <a href="http://127.0.0.1:4100/student_2025/picture/">My Cat</a>
   </div2>
 </div2>
 
