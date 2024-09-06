@@ -186,6 +186,7 @@ hide: true
   });
 
 </script>
+
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
@@ -218,17 +219,51 @@ hide: true
     }
         p {text-align: center;}
         p {text-align: center;}
+    .dropbtn {
+  background-color: #add1f7;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #79a9db;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e6f8e;}
     </style>
     <div class = "center">
         <p style="color: white; font-family:courier; font-size:48px" class="strong"><i>Hello, my name is Zoe He!</i></p>
     </div>
 <center>
 <img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
-
-<a href="http://127.0.0.1:4100/student_2025/tools/"
-    button class="button">Click here
+<a href="http://127.0.0.1:4100/student_2025/picture/"
+    button class="button">Click here 
 </a>
 </center>
 <!--<img src="diudiu.png" alt="picture" class="center" width="50px" height="60px">-->
-<!-- Load font awesome icons -->
+<div2 class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div2 class="dropdown-content">
+    <a href="http://127.0.0.1:4100/student_2025/about/">About Me</a>
+    <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
+    <a href="http://127.0.0.1:4100/student_2025/picture/">A GIF</a>
+  </div2>
+</div2>
 
