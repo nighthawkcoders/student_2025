@@ -194,13 +194,12 @@ he AP Computer Science pathway. This course focuses on teaching the JavaScript p
 ``` markdown 
 
 ``` markdown 
+
 About me
+### about me
 Class of 2028
 Lived in San Diego Silicon Valley and Canada
 
-
-
-THis is a heading made of code scaffolding.
 About me
 Class of 2028
 Lived in San Diego Silicon Valley and Canada
