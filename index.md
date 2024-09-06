@@ -200,7 +200,12 @@ This text below is my About me
 
 > Class of 2028
 
-## About me Amal Jinan Class of 2028 Lived in San Diego Silicon Valley and Canada Has attended about 6 different schools 1 sibling
+## About me Amal Jinan Class of 2028
+Lived in
+## San Diego
+## Silicon Valley
+## Canada
+## Has attended about 6 different schools 1 sibling
 ## Hobbies:
 ## Soccer
 ## Reading
