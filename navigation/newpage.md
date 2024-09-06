@@ -6,7 +6,7 @@ permalink: /newpage/
 
 <p>This is a paragraph</p>
 <button>button</button>
-</div>
+<div>
 
 <button>button 2</button>
 <button>button 2</button>
