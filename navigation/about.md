@@ -30,7 +30,7 @@ Outside of my professional pursuits, I have a deep love for sports, particularly
 
 As I continue my journey, I am eager to explore new avenues in business and technology. I believe that the combination of innovation, dedication, and a willingness to learn is key to success. Whether it's through further education, internships, or entrepreneurial ventures, I'm excited to see where my passions will take me.
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/yashpatil21/) to explore potential collaborations, share ideas, or just chat about the latest in business and technology!
+Connect with me on [LinkedIn](https://www.linkedin.com/in/yashpatil21/) to explore potential collaborations, share ideas, or just chat about the latest in business and technology!
 
 ## Skills and Expertise
 - **Marketing:** Expertise in digital marketing, content creation, and campaign management.
