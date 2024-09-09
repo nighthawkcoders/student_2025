@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Pictures 
+title: Picture of Rourou 
 description: Picture Page
 hide: true
 permalink: /picture/
