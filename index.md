@@ -6,6 +6,7 @@ author: Manahil Khan
 image: /images/mario_animation.png
 hide: true
 ---
+ <img src="/Users/manahil/manahil_student_2025/images/abt me.jpg">
 
 <!-- Liquid:  statements -->
 
