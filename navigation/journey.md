@@ -1,6 +1,8 @@
 ---
 layout: page 
-title: journey
+title: Journey
 search_exclude: true
 permalink: /journey/
 ---
+
+hello
