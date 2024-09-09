@@ -23,9 +23,10 @@ hide: true
 
 
 
-![Mario walking](https://media.giphy.com/media/12QMzVeF4QsqTC/giphy.gif)
+<img src="https://media.giphy.com/media/12QMzVeF4QsqTC/giphy.gif" alt="Mario walking" class="mario">
+
 <style>
-  img {
+  .mario {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -34,7 +35,8 @@ hide: true
     animation: walk 10s linear infinite;
   }
   @keyframes walk {
-    from { transform: translateX(-100%); }
+    from { transform: translateX(-100px); }
     to { transform: translateX(100vw); }
   }
 </style>
+

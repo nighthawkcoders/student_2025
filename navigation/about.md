@@ -32,11 +32,12 @@ As I continue my journey, I am eager to explore new avenues in business and tech
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/yashpatil21/) to explore potential collaborations, share ideas, or just chat about the latest in business and technology!
 
-## Skills and Expertise
-- **Marketing** :chart_with_upwards_trend:: Expertise in digital marketing, content creation, and campaign management.
-- **Business Development** :briefcase:: Proven ability to identify opportunities and build strategic partnerships.
-- **Cold Calling** :telephone_receiver:: Effective communication and persuasion skills to generate leads and close deals.
-- **Web Design** :computer:: Proficient in creating responsive, SEO-friendly websites using modern design principles.
+## Skills
+- **Marketing** 📈: Expertise in digital marketing, content creation, and campaign management.
+- **Business Development** 💼: Proven ability to identify opportunities and build strategic partnerships.
+- **Cold Calling** 📞: Effective communication and persuasion skills to generate leads and close deals.
+- **Web Design** 💻: Proficient in creating responsive, SEO-friendly websites using modern design principles.
+
 
 
 ## Languages
