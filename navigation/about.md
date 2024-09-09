@@ -8,7 +8,7 @@ I was born in Pakistan and lived in England for 7 years
 
  <img src="images/pakistan.jpg">
 <div>
-<img src="images/pakistan.jpg">
+<img src="images/engalnd.jpg">
 
 - I have been to 2 coldplay concerts
 - I have been on the Varsity golf team for 3 years
