@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Course Descriptions
-description: An overview of Computer Science pathway at Del Norte High School
+title: Manahil Khan
+description: Welcome to my page! My name is Manahil you can click about to learn more about me.
 author: Manahil Khan
 image: /images/mario_animation.png
 hide: true
