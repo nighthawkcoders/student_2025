@@ -597,6 +597,6 @@ permalink: /snake/
 
 ``` markdown
 
-![image](https://github.com/user-attachments/assets/88c0bca1-9d38-464f-9700-f04bcd01113f)
+![image](https://github.com/user-attachments/assets/8e7e0410-0850-4c60-ad49-dcbdbdcdb64e)
 ![image](https://github.com/user-attachments/assets/fe63f52c-9044-4e0d-ba56-3dd01eb2e307)
 ![image](https://github.com/user-attachments/assets/04037765-8b57-449f-91bf-08ca64c67c22)
