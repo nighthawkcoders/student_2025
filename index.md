@@ -2,7 +2,7 @@
 layout: base
 title: Course Descriptions
 description: An overview of Computer Science pathway at Del Norte High School
-author: John Mortensen, Vivian Ni, Bria Gilliam
+author: Manahil Khan
 image: /images/mario_animation.png
 hide: true
 ---
@@ -10,7 +10,6 @@ hide: true
 <!-- Liquid:  statements -->
 
 <!-- Include submenu from _includes to top of pages -->
-{% include nav/home.html %}
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
 <!--- Has is a list variable containing mario metadata for sprite --->
