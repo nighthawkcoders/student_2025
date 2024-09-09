@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Game
+title: Platformer
 description: Incorporate student lessons. Gameplay includes enemies, platforms, parallax backgrounds, settings with local storage, etc.  This revision introduces Settings, Leaderboard and Multiplayer.
 image: /images/platformer/backgrounds/home.png
 ---
