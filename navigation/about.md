@@ -11,3 +11,4 @@ permalink: /about/
 - I play lacrosse
 - I have been to 13 countries
 - I love Marvel
+- I have a British Shorthair cat
