@@ -19,14 +19,14 @@ permalink: /blogs/
 
 <div style="border: thin solid blue">
    <p style="color: blue; margin-left: 300px">
-       Healthy Food!🥗
+       Workouts!🏋️‍♀️
    </p>
-   <a href="https://www.nba.com/clippers/">
-   <button style="backround-color: white; border-color: blue; color: blue; margin-left: 300px">Clippers News </button>
+   <a href="https://www.youtube.com/watch?v=cbKkB3POqaY">
+   <button style="backround-color: white; border-color: blue; color: blue; margin-left: 300px">25 Minute Full Body Workout</button>
 </a>
 
 
-<a href="https://www.nba.com/clippers/roster">
-<button style="backround-color: white; border-color: blue; color: blue; margin-left: 300px">Clippers Roster </button>
+<a href="https://www.youtube.com/watch?v=EvF_Jnf9jwg">
+<button style="backround-color: white; border-color: blue; color: blue; margin-left: 300px">Cool Down Stretch </button>
 </a>
 </div>
