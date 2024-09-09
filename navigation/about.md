@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title:  
 permalink: /about/
 ---
 <html>
@@ -17,15 +17,14 @@ div {
   }
   </style>
   <div>
-    <p style="color: white; font-family:serif; font-size:35px" class="strong"> My name is Zoe, here's some things about me...</p>
-    <p style="color: white; font-family:ser; font-size:30px"> I'm a junior at Del Norte High School and I'm the public relations director of the DNHS Chess Club. I have a dog, a cat, and 3 parrots at home. One of my main hobbies is playing sports and I mainly play tennis and badminton. I like to read, cook, and sketch in my free time. </p>
-    <p style="color: white; font-family:serif; font-size:35px" class="strong"> This is a picture of me and my family:
+    <p style="color: white; font-family: courier new; font-size:35px" class="strong"> My name is Zoe, here's some things about me...</p>
+    <p style="color: white; font-family: courier new; font-size:30px"> I'm a junior at Del Norte High School and I'm the public relations director of the DNHS Chess Club. I have a dog, a cat, and 3 parrots at home. One of my main hobbies is playing sports and I mainly play tennis and badminton. I like to read, cook, and sketch in my free time.
+    <p style="color: white; font-family: courier new; font-size:30px"> I have lived in San Diego all my life but I have also spent a significant amount of time in China where I attended school and lived with my relatives in Chengdu. </p>
+    <img src="{{site.baseurl}}/images/china_flag.png" alt="picture of china flag">
+    <p style="color: white; font-family: courier new; font-size:30px">I made a lot of friends and met a lot of my relatives in China🫖🥮</p>
+    <img src="{{site.baseurl}}/images/americanflag.png" alt="picture of american flag" width= "275px" height="183px">
+    <p style="color: white; font-family: courier new; font-size:30px">I've spent most of my life here in San Diego🍔🌭</p>
+    <p style="color: white; font-family:serif; font-size:35px" class="strong"> This is a picture of me and my family: </p>
     <img src="{{site.baseurl}}/images/me_and_my_family.png" alt="picture of me"  width= "408px" height="313px">
-    <p style="color: red; font-family:serif; font-size:35px" class="strong"> My family is from China:
-    <br>
-    <img src="{{site.baseurl}}/images/china_flag.png" alt="picture of china flag" width="250px" height="120px">
-    <p style="color: white; font-family:serif; font-size:30px"> This is a picture of my dog:
     <br><br>
-    <img src="{{site.baseurl}}/images/diudiu.png" alt="picture of diudiu" width="100" height="130">
-    <br>
  

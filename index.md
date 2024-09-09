@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Student Home 
+title: My Home Page
 description: Home Page
 image: /images/mario.png
 hide: true
@@ -193,6 +193,35 @@ hide: true
     <link rel="stylesheet" href="style.css">
 <body>
     <style>
+      .submenu {
+  position: relative;
+  display: inline-block;
+}
+.submenu-btn {
+  background-color: #add1f7;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.submenu-content {
+  display: none;
+  position: absolute;
+  background-color: #79a9db;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.submenu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.submenu-content a:hover {background-color: #ddd;}
+.submenu:hover .submenu-content {display: block;}
+.submenu:hover .submenu-btn {background-color: #3e6f8e;}
     div {
   background-color: rgb(180, 200, 235);
   width: 400px;
@@ -252,18 +281,25 @@ hide: true
         <p style="color: white; font-family:courier; font-size:48px" class="strong"><i>Hello, my name is Zoe He!</i></p>
     </div>
 <center>
-<img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
-<a href="http://127.0.0.1:4100/student_2025/picture/"
-    button class="button">Click here for  Cat
-</a>
-</center>
-<!--<img src="diudiu.png" alt="picture" class="center" width="50px" height="60px">-->
+<div class="submenu">
+      <button class="submenu-btn">Projects</button>
+      <div class="submenu-content">
+        <a href="http://127.0.0.1:4100/student_2025/tools/">Project 1</a>
+        <a href="http://127.0.0.1:4100/student_2025/about/">Project 2</a>
+        <a href="http://127.0.0.1:4100/student_2025/picture/">Project 3</a>
+</div>
+      <!-- End Submenu -->
 <div2 class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+  <button class="dropbtn">Click here for more!</button>
   <div2 class="dropdown-content">
     <a href="http://127.0.0.1:4100/student_2025/about/">About Me</a>
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
     <a href="http://127.0.0.1:4100/student_2025/picture/">My Cat</a>
   </div2>
 </div2>
-
+<img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
+<a href="http://127.0.0.1:4100/student_2025/picture/"
+    button class="button">Cat Button
+</a>
+</center>
+<!--<img src="diudiu.png" alt="picture" class="center" width="50px" height="60px">-->
