@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-- I lived in England for 7 years
-- I was born in Pakistan
+I was born in Pakistan and lived in England for 7 years
+ <img src="images/abt me.jpg">
+
 - I have been to 2 coldplay concerts
 - I have been on the Varsity golf team for 3 years
 - I play lacrosse
