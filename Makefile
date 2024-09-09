@@ -81,7 +81,7 @@ clean: stop
 	done
 	@echo "Removing _site directory..."
 	@rm -rf _site
-
+...
 
 # Stop the server and kill processes
 stop:
