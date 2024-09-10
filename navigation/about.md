@@ -50,3 +50,34 @@ permalink: /about/
 <div>
 <img src="/Users/manahil/Pictures/Photos Library.photoslibrary/originals/4/4ACAA03C-F222-417C-A0A4-591343A739D9.jpeg" alt="cat" height="245" width="360">
 <div>
+
+
+
+<style>
+    .post header > ul {
+        display: none
+    }
+</style>
+   <p style="color: black; margin-left: 300px">
+       Mysterious... Click This
+   </p>
+<button style="backround-color: white; border-color: blue; color: blue; margin-left: 300px">Button </button>
+</div>
+
+
+
+
+
+
+   <p style="color: black; margin-left: 300px">
+       Some of my favorite songs 🎧
+   </p>
+   <a href="https://www.youtube.com/watch?v=nYrEL9ecAWA">
+   <button style="backround-color: white; border-color: blue; color: blue; margin-left: 300px">Iris by the Goo Goo Dolls</button>
+</a>
+
+
+<a href="https://www.youtube.com/watch?v=m2gzAay1uD8">
+<button style="backround-color: white; border-color: blue; color: blue; margin-left: 300px">Sure Thing by Miguel</button>
+</a>
+</div>
