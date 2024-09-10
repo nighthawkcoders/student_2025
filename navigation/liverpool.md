@@ -39,3 +39,26 @@ description: Official Liverpool FC Home Page
   <li><strong>Unique Feature:</strong> "You'll Never Walk Alone" anthem sung before every match</li>
   <li><strong>Significant Matches:</strong> Numerous iconic European nights, including Liverpool’s 4-0 victory over Barcelona in the 2019 Champions League semi-final</li>
 </ul>
+
+<!-- Liverpool FC Themed Jokes Section -->
+<h2 style="color: #a0001b;">Liverpool FC Jokes</h2>
+<div id="joke-container" style="color: #a0001b; font-family: 'Georgia, serif'; margin-bottom: 20px;">
+  <p>Click the button to hear a Liverpool-themed joke:</p>
+  <button onclick="tellJoke()" style="background-color: #a0001b; color: white; padding: 10px; border: none; cursor: pointer;">Get a Joke</button>
+  <p id="joke" style="font-weight: bold; margin-top: 15px;"></p>
+</div>
+
+<script>
+  const jokes = [
+    "Why did the Liverpool player bring a ladder to the game? Because they wanted to climb the league table!",
+    "Why do Liverpool fans always carry a pencil and paper? In case they need to draw a match!",
+    "What does a Liverpool fan do when their team wins the Premier League? They turn off their PlayStation!",
+    "Why did the Anfield grass look so good? Because it got plenty of Klopp’s attention!",
+    "Why don’t Liverpool players ever get lost? Because they always follow Klopp’s directions!"
+  ];
+
+  function tellJoke() {
+    const randomIndex = Math.floor(Math.random() * jokes.length);
+    document.getElementById('joke').innerText = jokes[randomIndex];
+  }
+</script>
