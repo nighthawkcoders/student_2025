@@ -265,5 +265,5 @@ hide: true
 <a href="http://127.0.0.1:4100/student_2025/picture/"
     button class="button">Cat Button
 </a>
-</center>
+
 <!--<img src="diudiu.png" alt="picture" class="center" width="50px" height="60px">-->

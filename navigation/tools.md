@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: 
+title:
 search_exclude: true
 permalink: /tools/
 ---
@@ -14,6 +14,9 @@ div {
   margin: ;
   }
   </style>
+  <center>
+  <h style="color: gray; font-family:serif; font-size:25px" class="strong"> Tools Setup Page</h>
+  </center>
   <div>
     <p style="color: white; font-family:serif; font-size:25px" class="strong">One of the first things we downloaded was Ubuntu, which is what allowed me to write code and generate a webpage. We also downloaded ruby, python, and jupyter.</p>
     <p style="color: white; font-family:serif; font-size:25px" class="strong">Something that I learned during the setup process was about Github. After we recovered everything we deleted using the rm -rf command, we had to post images showing proof of our progress. I didn't know what the directions meant when it said to post an issue on Github until another student explained it to me and helped me set one up. I think this information will be really useful in the future</p>
