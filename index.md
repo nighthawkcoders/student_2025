@@ -40,3 +40,10 @@ hide: true
   }
 </style>
 
+<script src="https://utteranc.es/client.js"
+        repo="Mom5MoreMins/aranya_student_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+    </script>
