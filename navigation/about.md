@@ -68,7 +68,6 @@ permalink: /about/
 
 
 
-
    <p style="color: black; margin-left: 300px">
        Some of my favorite songs 🎧
    </p>
