@@ -6,6 +6,13 @@ author: Manahil Khan
 image: /images/mario_animation.png
 hide: true
 ---
+
+<div class="header" style="text-align: center; padding: 20px; background-color: #f0f8ff; border-radius: 12px;">
+   <h1 style="color: #b074db; font-family: times new roman; font-size: 48px; letter-spacing: 2px; text-shadow: 3px 2px #8A2BE2;">
+      Home Page
+   </h1>
+</div>
+
 <!-- Navigation buttons section -->
 <div style="display: flex; justify-content: center; gap: 30px; padding: 40px; background-color: #e0f7fa; border-radius: 20px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
  <div style="text-align: center;">
