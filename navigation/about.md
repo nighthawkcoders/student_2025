@@ -6,11 +6,9 @@ description: My name is Arshia Deb Roy.
 permalink: /about/
 ---
 
-## As a conversation Starter
+## Culture and Family
 
-<comment>
-Flags are made using Wikipedia images
-</comment>
+Why do you think this flag is significant to me?
 
 <style>
     /* Style looks pretty compact, 
@@ -53,22 +51,14 @@ Flags are made using Wikipedia images
 </div>
 
 <script>
-    // 1. Make a connection to the HTML container defined in the HTML div
-    var container = document.getElementById("grid_container"); // This container connects to the HTML div
 
-    // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
+    
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
 		{"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India - Land Of Diversity"},
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hi", "description": "California - The golden State"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
-    ];
+        
 
-    // 3a. Consider how to update style count for size of container
-    // The grid-template-columns has been defined as dynamic with auto-fill and minmax
-
-    // 3b. Build grid items inside of our container for each row of data
     for (const location of living_in_the_world) {
         // Create a "div" with "class grid-item" for each row
         var gridItem = document.createElement("div");
@@ -96,14 +86,12 @@ Flags are made using Wikipedia images
     }
 </script>
 
-### My life till now
+Even though I am born in California, my family comes from India. I am very connected to my cuture and I regularly visit India and I do indian classical singing.
+    
 
-Here is what I did at those places
+# Art 
 
-- 🏫 Lots of Elementary Schools in Tucson, LA, Honolulu, and Glendale (CA)
-- 🏫 Middle and High School in Glendale (CA), Hoover High graduated '77
-- 🎓 Glendale CA Community College, UCLA Extension, LA Wilshire Computer Tech School '77 to '79
-
+I am also really into art and I took AP studio art last year at Del Norte. Here is some of my art. 
 
 <comment>
 Gallery of Pics, scroll to the right for more ...
@@ -115,3 +103,9 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/arshiaart4.jpg" alt="Image 4">
   <img src="{{site.baseurl}}/images/about/arshiaart5.jpg" alt="Image 5">
 </div>
+
+# Fun Facts 
+
+I really love cats and I want a cat in the future. 
+I love to go to the beach. 
+I am trilingual and can speak english, hindi, and bengali. 
