@@ -17,7 +17,7 @@ description: Liverpool FC Transfer News and Speculations
 ### Federico Chiesa
 <img src="https://cdn.vox-cdn.com/thumbor/x0jYk1ckMaqtsZgF5j2bhNpMWnA=/0x397:5729x4401/1200x800/filters:focal(3103x740:4157x1794)/cdn.vox-cdn.com/uploads/chorus_image/image/73551959/2169249269.0.jpg" alt="Federico Chiesa" style="width: 500px;">
 - **Transfer Fee:** £10.7 million plus add-ons
-- **Position:** Winger
+- **Position:** Winger or outside midfielder
 - **Strengths:** Dribbling, progressive passing, direct play
 - Chiesa will provide cover for Mo Salah and add creativity to Liverpool's attack.
 
