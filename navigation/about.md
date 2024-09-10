@@ -28,7 +28,7 @@ Outside of my professional pursuits, I have a deep love for sports, particularly
 
 ## Looking Ahead
 
-As I continue my journey, I am eager to explore new avenues in business and technology. I believe that the combination of innovation, dedication, and a willingness to learn is key to success. Whether it's through further education, internships, or entrepreneurial ventures, I'm excited to see where my passions will take me.
+As I continue my journey, I am very eager to explore new avenues in business and technology. I believe that the combination of innovation, dedication, and a willingness to learn is key to success. Whether it's through further education, internships, or entrepreneurial ventures, I'm excited to see where my passions will take me.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/yashpatil21/) to explore potential collaborations, share ideas, or just chat about the latest in business and technology!
 
