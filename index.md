@@ -25,7 +25,7 @@
     background-image: url('{{sprite_file}}');
     background-repeat: no-repeat;
   }
-
+lols
   /*background position of sprite element
   */
   #mario {
