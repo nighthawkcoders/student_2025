@@ -11,9 +11,7 @@ permalink: /about/
 Why do you think this flag is significant to me?
 
 <style>
-    /* Style looks pretty compact, 
-       - grid-container and grid-item are referenced the code 
-    */
+    
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
@@ -57,6 +55,7 @@ Why do you think this flag is significant to me?
     var living_in_the_world = [
 		{"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India - Land Of Diversity"},
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hi", "description": "California - The golden State"},
+	    {"flag": "Flag_of_India_(3-5).svg"}
         
 
     for (const location of living_in_the_world) {
