@@ -18,6 +18,7 @@
 <style>
 
   /*CSS style rules for the id and class of the sprite...
+  the flight is very high
   */
   .sprite {
     height: {{pixels}}px;
