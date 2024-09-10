@@ -8,6 +8,7 @@ import sys
 
 # Specify the directory where your Jupyter Notebook files are located
 notebook_directory = "_notebooks"
+
 # Specify the destination directory for the converted Markdown files
 destination_directory = "_posts"
 
