@@ -6,7 +6,7 @@ github_repo: "yash1_2025"
 baseurl: "/yash1_2025"
 
 future: true
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:

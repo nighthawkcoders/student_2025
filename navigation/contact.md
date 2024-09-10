@@ -10,23 +10,20 @@ description: Liverpool FC Contact Information
   <a href="transfers.html" style="color: red; text-decoration: none; margin: 0 15px;">Transfers</a>
   <a href="contact.html" style="color: red; text-decoration: none; margin: 0 15px;">Contact</a>
 </div>
-<h1>Contact Liverpool FC</h1>
 
-<h2>Club Contact Information</h2>
+<h1 style="color: red;">Contact Liverpool FC</h1>
 
-- **Address:**  
-  Liverpool Football Club  
-  Anfield Road,  
-  Liverpool, L4 0TH,  
-  England
+<h2 style="color: red;">Club Contact Information</h2>
 
-- **Main Switchboard:**  
-  +44 151 263 2361
+<p><b>Address:</b><br>
+  Liverpool Football Club<br>
+  Anfield Road,<br>
+  Liverpool, L4 0TH, England</p>
 
-- **Ticket Office / Booking Line:**  
-  +44 843 170 5555
+<p><b>Main Switchboard:</b> +44 151 263 2361</p>
 
-- **Customer Services / Memberships:**  
-  +44 843 170 5000
+<p><b>Ticket Office / Booking Line:</b> +44 843 170 5555</p>
 
-- **Email
+<p><b>Customer Services / Memberships:</b> +44 843 170 5000</p>
+
+<p><b>Email:</b> contact@example.com</p>
