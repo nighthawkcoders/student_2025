@@ -259,6 +259,8 @@ hide: true
   <div2 class="dropdown-content">
     <a href="http://127.0.0.1:4100/student_2025/about/">About Me</a>
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
+    <a href="http://127.0.0.1:4100/student_2025/emoji/">Emoji</a>
+
   </div2>
 </div2>
 <img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
