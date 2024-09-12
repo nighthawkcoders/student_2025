@@ -199,7 +199,7 @@ This text below is my About me
 
 > Class of 2028
 
-## About me Amal Jinan Class of 2028
+## About me Amal Jinan- Class of 2028
 Lived in-
 ## San Diego
 ## Silicon Valley
