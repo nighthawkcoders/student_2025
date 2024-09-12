@@ -1,6 +1,6 @@
 # Configuration, override port with usage: make PORT=4200
 PORT ?= 4100
-REPO_NAME ?= student_2025
+REPO_NAME ?= Amal_2025
 LOG_FILE = /tmp/jekyll$(PORT).log
 
 SHELL = /bin/bash -c
@@ -81,6 +81,7 @@ clean: stop
 	done
 	@echo "Removing _site directory..."
 	@rm -rf _site
+
 
 # Stop the server and kill processes
 stop:
