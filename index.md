@@ -28,7 +28,7 @@ hide: true
   <div style="text-align: center;">
      <a href="navigation/notebook3.html" style="text-decoration: none;">
         <button style="background-color: Purple; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
-           Math's History
+           Notebook 3 Text to Binary
         </button>
      </a>
   </div>
