@@ -209,7 +209,8 @@ Lived in
 ## Hobbies:
 ## Soccer
 ## Reading
-## Videogaming...
+## Videogaming
+
 ``` markdown
 
 ![image](https://github.com/user-attachments/assets/8e7e0410-0850-4c60-ad49-dcbdbdcdb64e)
