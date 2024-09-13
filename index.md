@@ -194,14 +194,59 @@ hide: true
     <link rel="stylesheet" href="style.css">
 <body>
     <style>
-    div {
-  background-color: rgb(180, 200, 235);
-  width: 400px;
-  length: 800px;
-  border: 15px solid white;
-  padding: 40px;
-  margin: 200px;
-  }
+      body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
     .button {
         background-color: #6592db
         border: none;
@@ -249,17 +294,42 @@ hide: true
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #3e6f8e;}
     </style>
-    <div class = "center">
-        <p style="color: white; font-family:courier; font-size:48px" class="strong"><i>Hello, my name is Zoe He!</i></p>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">Company</a>
+      <a href="#team">Team</a>
+      <a href="#careers">Careers</a>
     </div>
-<center>
-      <!-- End Submenu -->
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">Bring</a>
+      <a href="#deliver">Deliver</a>
+      <a href="#package">Package</a>
+      <a href="#express">Express</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Link 1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  <a href="#contact">Contact</a>
+</div>
 <div2 class="dropdown">
   <button class="dropbtn">Click here for more!</button>
   <div2 class="dropdown-content">
     <a href="http://127.0.0.1:4100/student_2025/about/">About Me</a>
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
-    <a href="http://127.0.0.1:4100/student_2025/emoji/">Emoji</a>
+    <a href="http://127.0.0.1:4100/student_2025/about/">Emoji</a>
 
   </div2>
 </div2>
@@ -267,5 +337,4 @@ hide: true
 <a href="http://127.0.0.1:4100/student_2025/picture/"
     button class="button">Cat Button
 </a>
-
 <!--<img src="diudiu.png" alt="picture" class="center" width="50px" height="60px">-->
