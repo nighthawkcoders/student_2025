@@ -7,6 +7,7 @@
 {% assign hash = site.data.mario_metadata %}  
 <!--- Size width/height of Sprit images --->
 {% assign pixels = 256 %}
+
 <!--- HTML for page contains <p> tag named "Mario" and class properties for a "sprite"  -->
 
 <p id="mario" class="sprite"></p>
@@ -17,7 +18,6 @@
 <style>
 
   /*CSS style rules for the id and class of the sprite...
-  the flight is very high
   */
   .sprite {
     height: {{pixels}}px;
@@ -25,6 +25,7 @@
     background-image: url('{{sprite_file}}');
     background-repeat: no-repeat;
   }
+
   /*background position of sprite element
   */
   #mario {
@@ -199,8 +200,8 @@ This text below is my About me
 
 > Class of 2028
 
-## About me Amal Jinan- Class of 2028
-Lived in-
+## About me Amal Jinan Class of 2028
+Lived in
 ## San Diego
 ## Silicon Valley
 ## Canada
