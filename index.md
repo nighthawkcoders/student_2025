@@ -210,43 +210,6 @@ hide: true
   padding: 14px 16px;
   text-decoration: none;
 }
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
-}
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: red;
-  width: 100%;
-  z-index: 1;
-}
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-.subnav:hover .subnav-content {
-  display: block;
-}
     .button {
         background-color: #6592db
         border: none;
@@ -294,36 +257,8 @@ hide: true
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #3e6f8e;}
     </style>
-<div class="navbar">
-  <a href="#home">Home</a>
-  <div class="subnav">
-    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#company">Company</a>
-      <a href="#team">Team</a>
-      <a href="#careers">Careers</a>
-    </div>
-  </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#bring">Bring</a>
-      <a href="#deliver">Deliver</a>
-      <a href="#package">Package</a>
-      <a href="#express">Express</a>
-    </div>
-  </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#link1">Link 1</a>
-      <a href="#link2">Link 2</a>
-      <a href="#link3">Link 3</a>
-      <a href="#link4">Link 4</a>
-    </div>
-  </div>
-  <a href="#contact">Contact</a>
-</div>
+<center>
+<p style= "color: lightblue; font-family: courier new; font-size:20px">Hi, my name is Zoe He</p>
 <div2 class="dropdown">
   <button class="dropbtn">Click here for more!</button>
   <div2 class="dropdown-content">
@@ -337,4 +272,16 @@ hide: true
 <a href="http://127.0.0.1:4100/student_2025/picture/"
     button class="button">Cat Button
 </a>
+<div class="container">
+  <label class="toggle_label">
+    <input type="checkbox" id="mode" class="toggle">
+    <span class="slider round">
+      <i class="fa-solid circle"></i>
+      <i class="fa-solid circle"></i>
+    </span>
+  </label>
+  <p id="theme"></p>
+  </div>
+</center>
+
 <!--<img src="diudiu.png" alt="picture" class="center" width="50px" height="60px">-->
