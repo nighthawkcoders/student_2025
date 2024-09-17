@@ -5,9 +5,14 @@ description: My name is Arshia Deb Roy.
 permalink: /about/
 ---
 
+
 ## Culture and Family
 
 Why do you think this flag is significant to me?
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" alt="India Flag">
+By Original: <a href="https://en.wikipedia.org/wiki/Donald_Graeme_Kelley" class="extiw" title="w:Donald Graeme Kelley">Donald Graeme Kelley</a>Vectorization: <a href="https://en.wikipedia.org/wiki/User:DevinCook" class="extiw" title="en:User:DevinCook">Devin Cook</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=324334">Link</a>
+<img src="" alt= "California Flag">
 
 <style>
     
@@ -43,29 +48,31 @@ Why do you think this flag is significant to me?
 </style>
 
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
-<div class="grid-container" id="grid_container">
+<div class="arshia-grid-container" id="arshia-grid_container">
     <!-- content will be added here by JavaScript -->
 </div>
 
 <script>
 
-    var container = document.getElementById("grid-container");
+    console.log("I am working 1");
+    var container = document.getElementById("arshia-grid-container");
     
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
 		{"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India - Land Of Diversity"},
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hi", "description": "California - The golden State"},
-	    {"flag": "Flag_of_India_(3-5).svg"} 
+    ];
         
-
+    console.log("I am working 2");
     for (const location of living_in_the_world) {
+        console.log("I am working 3");
         // Create a "div" with "class grid-item" for each row
         var gridItem = document.createElement("div");
         gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
         // Add "img" HTML tag for the flag
         var img = document.createElement("img");
         img.src = http_source + location.flag; // concatenate the source and flag
-        img.alt = location.flag + " Flag"; // add alt text for accessibility
+        img.alt = location.description + " Flag"; // add alt text for accessibility
 
         // Add "p" HTML tag for the description
         var description = document.createElement("p");
