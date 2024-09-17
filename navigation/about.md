@@ -49,6 +49,7 @@ Why do you think this flag is significant to me?
 
 <script>
 
+    var container = document.getElementById("grid_container"); // This container connects to the HTML div
     
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
