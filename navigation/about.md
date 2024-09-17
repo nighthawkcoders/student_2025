@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me 
 description: My name is Arshia Deb Roy.
 permalink: /about/
 ---
@@ -49,13 +49,13 @@ Why do you think this flag is significant to me?
 
 <script>
 
-    var container = document.getElementById("grid_container"); // This container connects to the HTML div
+    var container = document.getElementById("grid-container");
     
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
 		{"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India - Land Of Diversity"},
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hi", "description": "California - The golden State"},
-	    {"flag": "Flag_of_India_(3-5).svg"}
+	    {"flag": "Flag_of_India_(3-5).svg"} 
         
 
     for (const location of living_in_the_world) {
@@ -106,5 +106,7 @@ Gallery of Pics, scroll to the right for more ...
 # Fun Facts 
 
 I really love cats and I want a cat in the future. 
+
 I love to go to the beach. 
+
 I am trilingual and can speak english, hindi, and bengali. 
