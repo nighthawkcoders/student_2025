@@ -5,15 +5,6 @@ description: My name is Arshia Deb Roy.
 permalink: /about/
 ---
 
-
-## Culture and Family
-
-Why do you think this flag is significant to me?
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" alt="India Flag">
-By Original: <a href="https://en.wikipedia.org/wiki/Donald_Graeme_Kelley" class="extiw" title="w:Donald Graeme Kelley">Donald Graeme Kelley</a>Vectorization: <a href="https://en.wikipedia.org/wiki/User:DevinCook" class="extiw" title="en:User:DevinCook">Devin Cook</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=324334">Link</a>
-<img src="" alt= "California Flag">
-
 <style>
     
     .grid-container {
@@ -46,6 +37,26 @@ By Original: <a href="https://en.wikipedia.org/wiki/Donald_Graeme_Kelley" class=
         border-radius: 5px;
     }
 </style>
+
+## Culture and Family
+
+<div class="arshia-flag" id="arshia-flag">
+    Why do you think this flag is significant to me?
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" 
+        alt="India Flag" 
+        class="grid-item image-gallery"> 
+        <p> Namaste. <br/>India - Land Of Diversity </p> 
+    </img>
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" 
+        alt="California Flag" 
+        class="grid-item image-gallery"> 
+        <p> Hi. <br/>California - The golden State </p> 
+    </img>
+</div>
+
+
 
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
 <div class="arshia-grid-container" id="arshia-grid_container">
