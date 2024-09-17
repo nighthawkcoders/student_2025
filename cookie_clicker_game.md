@@ -12,11 +12,13 @@ hide: true
   <img id="cookie" src="{{site.baseurl}}/images/Fortune_cookie.png" alt="Cookie" style="cursor: pointer;" width="330px" height="290px">
   <img source>
   <p>Cookies clicked: <span id="counter">0</span></p>
+  <audio id="cookie-sound" src="{{site.baseurl}}/sounds/Tearing Crunch.mp3" preload="auto"></audio>
 </div>
 <script>
   let counter = 0;
   document.getElementById('cookie').addEventListener('click', function() {
     counter++;
     document.getElementById('counter').textContent = counter;
+    document.getElementById('cookie-sound').play();
   });
 </script>
