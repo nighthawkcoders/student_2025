@@ -6,7 +6,9 @@ image: /images/mario.png
 hide: true
 ---
 
+
 <!-- Liquid:  statements -->
+
 
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
@@ -15,14 +17,17 @@ hide: true
 <!--- Size width/height of Sprit images --->
 {% assign pixels = 256 %}
 
+
 <!--- HTML for page contains <p> tag named "Mario" and class properties for a "sprite"  -->
 
+
 <p id="mario" class="sprite"></p>
-  
-<!--- Embedded Cascading Style Sheet (CSS) rules, 
-        define how HTML elements look 
+ 
+<!--- Embedded Cascading Style Sheet (CSS) rules,
+        define how HTML elements look
 --->
 <style>
+
 
   /*CSS style rules for the id and class of the sprite...
   */
@@ -33,6 +38,7 @@ hide: true
     background-repeat: no-repeat;
   }
 
+
   /*background position of sprite element
   */
   #mario {
@@ -40,13 +46,15 @@ hide: true
   }
 </style>
 
+
 <!--- Embedded executable code--->
 <script>
   ////////// convert YML hash to javascript key:value objects /////////
 
+
   var mario_metadata = {}; //key, value object
   {% for key in hash %}  
-  
+ 
   var key = "{{key | first}}"  //key
   var values = {} //values object
   values["row"] = {{key.row}}
@@ -54,9 +62,12 @@ hide: true
   values["frames"] = {{key.frames}}
   mario_metadata[key] = values; //key with values added
 
+
   {% endfor %}
 
+
   ////////// game object for player /////////
+
 
   class Mario {
     constructor(meta_data) {
@@ -70,18 +81,22 @@ hide: true
       this.marioElement.style.position = "absolute";
     }
 
+
     animate(obj, speed) {
       let frame = 0;
       const row = obj.row * this.pixels;
       this.currentSpeed = speed;
+
 
       this.tID = setInterval(() => {
         const col = (frame + obj.col) * this.pixels;
         this.marioElement.style.backgroundPosition = `-${col}px -${row}px`;
         this.marioElement.style.left = `${this.positionX}px`;
 
+
         this.positionX += speed;
         frame = (frame + 1) % obj.frames;
+
 
         const viewportWidth = window.innerWidth;
         if (this.positionX > viewportWidth - this.pixels) {
@@ -90,44 +105,54 @@ hide: true
       }, this.interval);
     }
 
+
     startWalking() {
       this.stopAnimate();
       this.animate(this.obj["Walk"], 3);
     }
+
 
     startRunning() {
       this.stopAnimate();
       this.animate(this.obj["Run1"], 6);
     }
 
+
     startPuffing() {
       this.stopAnimate();
       this.animate(this.obj["Puff"], 0);
     }
+
 
     startCheering() {
       this.stopAnimate();
       this.animate(this.obj["Cheer"], 0);
     }
 
+
     startFlipping() {
       this.stopAnimate();
       this.animate(this.obj["Flip"], 0);
     }
+
 
     startResting() {
       this.stopAnimate();
       this.animate(this.obj["Rest"], 0);
     }
 
+
     stopAnimate() {
       clearInterval(this.tID);
     }
   }
 
+
   const mario = new Mario(mario_metadata);
 
+
   ////////// event control /////////
+
 
   window.addEventListener("keydown", (event) => {
     if (event.key === "ArrowRight") {
@@ -151,6 +176,7 @@ hide: true
     }
   });
 
+
   //touch events that enable animations
   window.addEventListener("touchstart", (event) => {
     event.preventDefault(); // prevent default browser action
@@ -167,15 +193,18 @@ hide: true
     }
   });
 
+
   //stop animation on window blur
   window.addEventListener("blur", () => {
     mario.stopAnimate();
   });
 
+
   //start animation on window focus
   window.addEventListener("focus", () => {
      mario.startFlipping();
   });
+
 
   //start animation on page load or page refresh
   document.addEventListener("DOMContentLoaded", () => {
@@ -186,29 +215,61 @@ hide: true
     mario.startResting();
   });
 
+
 </script>
+
 
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
     <style>
-      body {
-  font-family: Arial, Helvetica, sans-serif;
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
   margin: 0;
 }
-.navbar {
-  overflow: hidden;
-  background-color: #333; 
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
 }
-.navbar a {
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+.subnav-content a {
   float: left;
-  font-size: 16px;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+}
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+.subnav:hover .subnav-content {
+  display: block;
 }
     .button {
         background-color: #6592db
@@ -256,15 +317,61 @@ hide: true
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #3e6f8e;}
+.toggle {
+    background-color: #607d8b;
+    color: #607d8b;
+    visibility: hidden;
+}
+.toggle_label {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.slider {
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    border: 5px solid white;
+    content: "";
+    height: 36px;
+    width: 36px;
+    right: 10px;
+    left: 7px;
+    top: 7px;
+    position: absolute;
+    transition: .4s;
+    border-radius: 50%;
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 70px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
     </style>
 <center>
 <p style= "color: lightblue; font-family: courier new; font-size:20px">Hi, my name is Zoe He</p>
+<p style= "color: lightblue; font-family: courier new; font-size:10px">(Mario can move)</p>
 <div2 class="dropdown">
   <button class="dropbtn">Click here for more!</button>
   <div2 class="dropdown-content">
     <a href="http://127.0.0.1:4100/student_2025/about/">About Me</a>
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
-    <a href="http://127.0.0.1:4100/student_2025/about/">Emoji</a>
+    <a href="http://127.0.0.1:4100/student_2025/emoji/">Emoji</a>
+    <a href="http://127.0.0.1:4100/student_2025/cookie/">Cookie Clicker</a>
 
   </div2>
 </div2>
@@ -272,7 +379,9 @@ hide: true
 <a href="http://127.0.0.1:4100/student_2025/picture/"
     button class="button">Cat Button
 </a>
-<div class="container">
+<br></br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1vKlnFo34ktfVDRvR1Oycz?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<!--<div class="container">
   <label class="toggle_label">
     <input type="checkbox" id="mode" class="toggle">
     <span class="slider round">
