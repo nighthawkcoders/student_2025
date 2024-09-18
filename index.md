@@ -234,6 +234,9 @@ hide: true
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
     <style>
+body {
+    background: rgb(240, 235, 248);
+}
 .subnav {
   float: left;
   overflow: hidden;
@@ -363,12 +366,15 @@ div.absolute {
 }
     </style>
 <center>
-<p style= "color: lightblue; font-family: courier new; font-size:20px">Hi, my name is Zoe He</p>
-<p style= "color: lightblue; font-family: courier new; font-size:10px">(Mario can move)</p>
+<p style= "color: white; font-family: courier new; font-size:20px">Hi, my name is Zoe He</p>
+<p style= "color: white; font-family: courier new; font-size:10px">(Mario can move)</p>
 
 <img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
+<br>
+<br>
+<br>
 <a href="http://127.0.0.1:4100/student_2025/picture/"
-    button class="button">Cat Button
+    button class="button"> Click here to see a picture!
 </a>
 <br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1vKlnFo34ktfVDRvR1Oycz?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -378,11 +384,15 @@ div.absolute {
     <a href="http://127.0.0.1:4100/student_2025/about/">About Me</a>
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
     <a href="http://127.0.0.1:4100/student_2025/emoji/">Emoji</a>
+    <a href="http://127.0.0.1:4100/student_2025/javascript/">Javascript</a>
+
   </div2>
 <div class="dropdown">
   <button class="dropbtn">Click here for games!</button>
   <div class="dropdown-content">
     <a href="http://127.0.0.1:4100/student_2025/cookie/">Cookie Clicker</a>
+    <a href="http://127.0.0.1:4100/student_2025/calc/">Calculator</a>
+    <a href="http://127.0.0.1:4100/student_2025/snake/">Snake Game</a>
   </div>
 <!--<div class="container">
   <label class="toggle_label">

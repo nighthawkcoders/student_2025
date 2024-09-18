@@ -5,6 +5,9 @@ search_exclude: true
 permalink: /tools/
 ---
 <style>
+body {
+    background: rgb(245, 240, 248);
+}
 div {
   background-color: rgb(180, 200, 235);
   width: ;
