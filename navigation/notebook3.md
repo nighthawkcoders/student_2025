@@ -13,9 +13,6 @@ title: Text to Binary
 Welcome to the Text to Binary Converter page! Here you can convert text into binary code using a simple program. Below is the JavaScript code that performs this conversion.
 
 ## JavaScript Code
-
-```html
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

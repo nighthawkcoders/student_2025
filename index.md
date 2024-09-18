@@ -33,6 +33,58 @@ hide: true
      </a>
   </div>
 </div>
+## Gaming Submenu
+
+<style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-button {
+    background-color: #3e8e41;
+  }
+</style>
+
+<div class="dropdown">
+  <button class="dropdown-button" style="background-color: #4CAF50; color: white; padding: 16px; font-size: 16px; border: none; cursor: pointer; border-radius: 8px;">
+    Gaming Submenu
+  </button>
+  <div class="dropdown-content">
+    <a href="navigation/gamingnotebook1.html" style="background-color: Blue; color: white;">Cookie Clicker</a>
+    <a href="navigation/gamingnotebook2.html" style="background-color: Red; color: white;">Binary Calculator</a>
+    <a href="navigation/gamingnotebook3.html" style="background-color: Teal; color: white;">Snake Game</a>
+  </div>
+</div>
+
+
+
 
 <div style="padding-top: 50px;">
   <p>This is a button</p>
@@ -43,7 +95,7 @@ hide: true
   </div>
 
   <div style="padding-top: 6px;">
-    <a href="http://127.0.0.1:4100/student_2025/navigation/journey.html" style="display: inline-block; padding: 10px 50px; background-color: black; color: white; text-decoration: underline; border-radius: 5px;">Journey</a>
+    <a href="./navigation/journey.md" style="display: inline-block; padding: 10px 50px; background-color: black; color: white; text-decoration: underline; border-radius: 5px;">Journey</a>
   </div>
 
   <p>Click on these to see my Liverpool FC and Journey pages</p>

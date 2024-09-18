@@ -2,7 +2,6 @@
 layout: base
 title: Journey
 description: journey Page
-hide: true
 ---
 
 # Yash Patil's Journey
