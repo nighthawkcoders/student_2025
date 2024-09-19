@@ -22,20 +22,17 @@ permalink: /cookie clicker/
            margin: 0;
            padding-top: 400px; /* Increased padding for more space for the navigation bar */
        }
-
        h1 {
            font-family: 'Cookie', cursive;
            color: #FFFFFF;
            font-size: 3rem;
            margin: 0;
        }
-
        #gameContainer {
            position: relative;
            text-align: center;
            margin-top: 50px; /* Reduced margin for better spacing */
        }
-
        #cookie {
            width: 190px; /* Adjust the size of the cookie */
            height: 190px;

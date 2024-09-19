@@ -251,3 +251,10 @@ hide: true
 
 </script>
 
+<div style="text-align: center;">
+    <a href="calculator" style="text-decoration: none;">
+       <button style="background-color: #00bcd4; color: white; border: none; padding: 20px 50px; font-size: 18px; border-radius: 50px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;">
+          Calculator
+       </button>
+    </a>
+ </div>

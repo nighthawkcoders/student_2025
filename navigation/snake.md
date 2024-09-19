@@ -12,23 +12,13 @@ permalink: /snake/
 
 
 <style>
-   html, body {
-       margin: 0;
-       padding: 0;
-       height: 100%;
-       background-color: #e9e9e9;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-
-
    #gameContainer {
        width: 80vw;
        height: 80vh;
        display: flex;
        justify-content: center;
        align-items: center;
+       flex-direction: column;
    }
 
 
