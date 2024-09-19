@@ -1,6 +1,6 @@
 ---
 layout: base
-title: My Home Page
+title: .✧ My Home Page ✧.
 description: Home Page
 image: /images/mario.png
 hide: true
@@ -366,7 +366,7 @@ div.absolute {
 }
     </style>
 <center>
-<p style= "color: white; font-family: courier new; font-size:20px">Hi, my name is Zoe He</p>
+<div style= "color: white; font-family: courier new; font-size:20px">Hi, my name is Zoe He</div>
 <p style= "color: white; font-family: courier new; font-size:10px">(Mario can move)</p>
 
 <img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
@@ -385,6 +385,7 @@ div.absolute {
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
     <a href="http://127.0.0.1:4100/student_2025/emoji/">Emoji</a>
     <a href="http://127.0.0.1:4100/student_2025/javascript/">Javascript</a>
+    <a href="http://127.0.0.1:4100/student_2025/reflection/">Javascript</a>
 
   </div2>
 <div class="dropdown">

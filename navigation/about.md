@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  
+title:  ☆*About Zoe He*☆
 permalink: /about/
 ---
 <html>

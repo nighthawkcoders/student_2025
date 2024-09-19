@@ -1,6 +1,6 @@
 ---
 layout: page 
-title:
+title: ❁. Tools .❁
 search_exclude: true
 permalink: /tools/
 ---
