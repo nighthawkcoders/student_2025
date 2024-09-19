@@ -8,7 +8,7 @@ hide: true
 ---
 
 <div class="header" style="text-align: center; padding: 20px; background-color: #f0f8ff; border-radius: 12px;">
-   <h1 style="color: #b074db; font-family: times new roman; font-size: 48px; letter-spacing: 2px; text-shadow: 3px 2px #8A2BE2;">
+   <h1 style="color: #b074db; font-family: georgia; font-size: 48px; letter-spacing: 2px; text-shadow: 3px 2px #8A2BE2;">
       𖤣.𖥧 Home Page 𖡼.⚘
    </h1>
 </div>
@@ -45,7 +45,7 @@ hide: true
 
 <style>
  button:hover {
-   background-color: #FFC3DF;
+   background-color: #A5BDDA;
    transform: scale(1.1);
  }
 

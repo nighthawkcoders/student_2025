@@ -11,7 +11,7 @@ permalink: /blogs/
     <title>Movie Night</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: georgia, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -25,8 +25,8 @@ permalink: /blogs/
         }
 
         h1, h2, h3 {
-            color: #0056b3;
-            font-family: 'Playfair Display', serif;
+            color: #FFFFFF;
+            font-family: 'georgia', serif;
             text-align: center;
         }
 
