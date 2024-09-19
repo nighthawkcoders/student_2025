@@ -385,7 +385,7 @@ div.absolute {
     <a href="http://127.0.0.1:4100/student_2025/tools/">Tools</a>
     <a href="http://127.0.0.1:4100/student_2025/emoji/">Emoji</a>
     <a href="http://127.0.0.1:4100/student_2025/javascript/">Javascript</a>
-    <a href="http://127.0.0.1:4100/student_2025/reflection/">Javascript</a>
+    <a href="http://127.0.0.1:4100/student_2025/reflection/">Reflection </a>
 
   </div2>
 <div class="dropdown">

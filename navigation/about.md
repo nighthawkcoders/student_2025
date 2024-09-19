@@ -115,17 +115,7 @@ table, th, td {
     <center>
     <img src="{{site.baseurl}}/images/americanflag.png" alt="picture of american flag" width= "275px" height="183px">
     <p style="color: white; font-family: courier new; font-size:20px">I've spent most of my life here in San Diego🍔🌭</p>
-    <table>
 <center>
-  <tr>
-    <th>My favorite food</th>
-    <th>My favorite color</th>
-    <th>My favorite animal</th>
-  </tr>
-  <tr>
-    <td>Rice</td>
-    <td>Blue</td>
-    <td>Cats</td>
   <tr>
     <p style="color: white; font-family:courier new; font-size:25px" class="strong"> Here is a picture of me and my family in Shenyang: </p>
     <a href="http://127.0.0.1:4100/student_2025/family/"
@@ -143,3 +133,12 @@ table, th, td {
     <br><br>
     <br><br>
     <br><br>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
