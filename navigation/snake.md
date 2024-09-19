@@ -1,6 +1,6 @@
----
+git 
 layout: base
-title: Snake Game
+title: Snake game
 permalink: /snake/
 ---
 
