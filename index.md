@@ -5,7 +5,15 @@ description: Home Page
 hide: true
 ---
 
-# Yash's Page
+
+</table>
+
+<table>
+  <tr>
+    <td><a href="{{site.baseurl}}/javascript/">Notebook Javascript</a></td>
+  </tr>
+
+</table>    
 
 ## Submenu
 <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
