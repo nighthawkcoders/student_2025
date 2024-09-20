@@ -346,6 +346,8 @@ permalink: /snake/
         async>
 </script>
 -->
+<script src=”https://utteranc.es/client.js” repo=”AmalJinan/Amal_2025” issue-term=”pathname” theme=”github-light” crossorigin=”anonymous” async </script>
+
 
 ``` markdown
 
