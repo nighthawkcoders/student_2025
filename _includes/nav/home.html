@@ -1,15 +1,18 @@
+<table>
+    <tr>
+        <td><img src="{{site.baseurl}}/images/logo.png" height="60" title="Home" alt=""></td>
+        <td><a href="{{site.baseurl}}/navigation/section/csse">CSSE</a></td>
+        ![image](https://github.com/user-attachments/assets/04037765-8b57-449f-91bf-08ca64c67c22)
+        <td><a href="{{site.baseurl}}/navigation/section/csp">CSP</a></td>
+        <td><a href="{{site.baseurl}}/navigation/section/csa">CSA</a></td>
 <td><a href="{{site.baseurl}}/navigation/section/csa">CSA</a></td>
         <td><a href="{{site.baseurl}}/kasm/pages/intro">Kasm</a></td>
         <td id="loginArea"><a href="{{site.baseurl}}/login">Login</a></td>
-        <td><a href="{{site.baseurl}}/about">About Me</a></td>
-
 
     </tr>
 </table>
-
 <script type="module">
     import { pythonURI, fetchOptions } from '{{site.baseurl}}/assets/js/api/config.js';
-
     document.addEventListener('DOMContentLoaded', function() {
     getCredentials() // Call the function to get credentials
         .then(data => {
@@ -36,7 +39,6 @@
             // Handle any errors that occurred during getCredentials
         });
     });
-
     function getCredentials() {
         const URL = pythonURI + '/api/id';
         return fetch(URL, fetchOptions)
@@ -57,5 +59,4 @@
                 return null;
             });
     }
-
 </script>
