@@ -1,4 +1,5 @@
 header_pages:
+  - navigation/snake.md
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
