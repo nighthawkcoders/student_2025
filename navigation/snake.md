@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Snake Game
+title: Snake Games
 description: A Javascript Snake game that contains score and preferences.
 categories: [Javascript]
 menu: nav/javascript_project.html
