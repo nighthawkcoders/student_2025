@@ -118,11 +118,11 @@ table, th, td {
 <center>
   <tr>
     <p style="color: white; font-family:courier new; font-size:25px" class="strong"> Here is a picture of me and my family in Shenyang: </p>
-    <a href="http://127.0.0.1:4100/student_2025/family/"
+    <a href="http://127.0.0.1:4100/zoehe_2025/family/"
     button class="button">Click here!
     </a>
      <p style="color: white; font-family: courier new; font-size:25px" class="strong"> Here are some pictures of my pets: </p>
-    <a href="http://127.0.0.1:4100/student_2025/pets/"
+    <a href="http://127.0.0.1:4100/zoehe_2025/pets/"
     button class="button">Click here!
     </a>
     <br><br>
