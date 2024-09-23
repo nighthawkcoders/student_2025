@@ -1,10 +1,13 @@
-git 
-layout: base
-title: Snake game
-permalink: /snake/
 ---
-
-{% include nav/home.html %}
+layout: post
+title: Snake Game
+description: A Javascript Snake game that contains score and preferences.
+categories: [Javascript]
+menu: nav/javascript_project.html
+permalink: /javascript/project/snake
+toc: true
+comments: false
+---
 
 <style>
 
@@ -70,10 +73,10 @@ permalink: /snake/
     }
 </style>
 
-<h2>Snake</h2>
+
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
-        <p class="fs-4">Score: <span id="score_value">0</span></p>
+        <p class="fs-4">Snake score: <span id="score_value">0</span></p>
     </header>
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
@@ -147,6 +150,10 @@ permalink: /snake/
         let food = {x: 0, y: 0};
         let score;
         let wall;
+        let appleImage = new Image();
+        appleImage.src = '{{site.baseurl}}/images/apple.png'; // Replace with the path to your apple image
+        const appleWidth = 20; // Set the desired width
+        const appleHeight = 20; // Set the desired height
         /* Display Control */
         /////////////////////////////////////////////////////////////
         // 0 for the game
@@ -277,7 +284,7 @@ permalink: /snake/
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
-            activeDot(food.x, food.y);
+            ctx.drawImage(appleImage, food.x * BLOCK, food.y * BLOCK, BLOCK, BLOCK);
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
             // Recursive call after speed delay, déjà vu
@@ -310,24 +317,27 @@ permalink: /snake/
             // test key and switch direction
             switch(key) {
                 case 37:    // left arrow
+                case 65:    // 'A' key
                     if (snake_dir !== 1)    // not right
                         snake_next_dir = 3; // then switch left
                     break;
                 case 38:    // up arrow
+                case 87:    // 'W' key
                     if (snake_dir !== 2)    // not down
                         snake_next_dir = 0; // then switch up
                     break;
                 case 39:    // right arrow
+                case 68:    // 'D' key
                     if (snake_dir !== 3)    // not left
                         snake_next_dir = 1; // then switch right
                     break;
                 case 40:    // down arrow
+                case 83:    // 'S' key
                     if (snake_dir !== 0)    // not up
                         snake_next_dir = 2; // then switch down
                     break;
             }
-        }
-        /* Dot for Food or Snake part */
+        }    /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
             ctx.fillStyle = "#FFFFFF";
@@ -369,4 +379,11 @@ permalink: /snake/
             if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
         }
     })();
+
+    document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                event.preventDefault();
+            }
+        });
 </script>
+```
