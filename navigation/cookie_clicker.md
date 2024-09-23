@@ -114,7 +114,7 @@ permalink: /cookie clicker/
        <div id="youWin">You Win! Cookies are raining down!</div>
        <button id="playAgain" onclick="resetGame()">Play Again</button>
    </div>
-
+    <audio id="click-sound" src="{{site.baseurl}}/sounds/crunch.mp3" preload="auto"></audio>
    <script>
        let cookies = 0;
        let cookiesPerClick = 1;
@@ -131,11 +131,14 @@ permalink: /cookie clicker/
        const cookieElement = document.getElementById("cookie");
        const youWinElement = document.getElementById("youWin");
        const playAgainButton = document.getElementById("playAgain");
+       const clickSound = document.getElementById('click-sound');
 
        cookieElement.addEventListener("click", function () {
            cookies += cookiesPerClick;
            updateScore();
            checkWinCondition();
+           clickSound.currentTime = 0;
+           playClickSound();
        });
 
        function buyUpgrade(cost, increment) {
@@ -192,6 +195,10 @@ permalink: /cookie clicker/
            document.body.style.backgroundImage = "none";
            clearInterval(autoClicker);
            autoClicker = null;
+       }
+       function playClickSound() {
+            clickSound.currentTime = 0;
+            clickSound.play();
        }
    </script>
 
