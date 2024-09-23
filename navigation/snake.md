@@ -1,12 +1,10 @@
 ---
-layout: post
-title: Snake Games
-description: A Javascript Snake game that contains score and preferences.
-categories: [Javascript]
-menu: nav/javascript_project.html
-permalink: /javascript/project/snake
-toc: true
-comments: false
+layout: base
+title: Snake
+description: Information about Amal Jinan
+author: Amal Jinan
+image: /images/mario_animation.png
+hide: false
 ---
 
 <style>
