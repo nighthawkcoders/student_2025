@@ -1,7 +1,7 @@
 ---
 layout: base
 title: .✧ My Home Page ✧.
-description: Home Page
+description: Class of 2026
 image: /images/mario.png
 hide: true
 ---
