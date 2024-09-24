@@ -48,15 +48,18 @@ hide: false
     ## Role Models
 
   
-![image](https://github.com/user-attachments/assets/5cf29d46-655c-41ad-9161-64730dcf2b4f)
+![image](https://github.com/user-attachments/assets/1662b9a3-1a02-4045-98ff-128067667f46)
+   
     Extensive Research into Astrophysics
 
 
      ![image](https://github.com/user-attachments/assets/3f69d0e0-44e6-4c32-8d22-dbeac0c359d3)
+  
     Built one of the most succesful search engines in the world
 
 
     ![image](https://github.com/user-attachments/assets/7a466fa1-5494-4fe9-a620-d70aed9bb569)
+    
     Extensive Islamic Knowledge
 
 
