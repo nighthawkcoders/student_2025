@@ -33,6 +33,15 @@ hide: false
     CURIOSITY
     ## Achievments
 
+<img width="1439" alt="Screen Shot 2024-09-23 at 10 39 25 PM" src="https://github.com/user-attachments/assets/ceb8f365-c33f-404d-9501-029389ab9f8e">
+   
+    
+    Over 70+ games in Scratch
+    600+followers
+
+
+
+
      ![image](https://github.com/user-attachments/assets/3f69d0e0-44e6-4c32-8d22-dbeac0c359d3)
   
     Built one of the most succesful search engines in the world
@@ -52,10 +61,7 @@ hide: false
     Knows a deep level of Python
 
 
-     ![image](https://github.com/user-attachments/assets/ddae46f5-be8b-42ba-bdc2-84c5ac252546)
-    Over 70+ games in Scratch
-    600+followers
-
+    
 
     ## Role Models
 
