@@ -11,7 +11,7 @@ hide: true
     <tr>
         <td><a href="{{site.baseurl}}/struggles/">Struggles Notebook</a></td>
         <td><a href="{{site.baseurl}}/javascript/">Java Script Notebook</a></td>
-        <td><a href="{{site.baseurl}}/jupyter/notebook/python/">Python Notebook</a></td>
+        <td><a href="{{site.baseurl}}/pythonnb/">Python Notebook</a></td>
  </tr>
 </table>
 </div>
