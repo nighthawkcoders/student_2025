@@ -5,15 +5,16 @@ description: Home Page
 hide: true
 ---
 
-
-</table>
-
+ 
+<div>
 <table>
-  <tr>
-    <td><a href="{{site.baseurl}}/javascript/">Notebook Javascript</a></td>
-  </tr>
-
-</table>    
+    <tr>
+        <td><a href="{{site.baseurl}}/struggles/">Struggles Notebook</a></td>
+        <td><a href="{{site.baseurl}}/javascript/">Java Script Notebook</a></td>
+        <td><a href="{{site.baseurl}}/jupyter/notebook/python/">Python Notebook</a></td>
+ </tr>
+</table>
+</div>
 
 ## Submenu
 <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
