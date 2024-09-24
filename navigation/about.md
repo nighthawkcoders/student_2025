@@ -33,18 +33,9 @@ hide: false
     CURIOSITY
     ## Achievments
 
-<img width="1439" alt="Screen Shot 2024-09-23 at 10 39 25 PM" src="https://github.com/user-attachments/assets/ceb8f365-c33f-404d-9501-029389ab9f8e">
+
+
    
-    
-    Over 70+ games in Scratch
-    600+followers
-
-
-
-
-     
-     
-     
      ![image](https://github.com/user-attachments/assets/3f69d0e0-44e6-4c32-8d22-dbeac0c359d3)
   
     Built one of the most succesful search engines in the world
@@ -66,6 +57,20 @@ hide: false
      
      ![image](https://github.com/user-attachments/assets/e54a18f1-7ebc-44b8-9ac1-aabd001d8964)6
     3rd in Spanda spelling bee 2016
+    
+
+<img width="1439" alt="Screen Shot 2024-09-23 at 10 39 25 PM" src="https://github.com/user-attachments/assets/ceb8f365-c33f-404d-9501-029389ab9f8e">
+   
+    
+    Over 70+ games in Scratch
+    600+followers
+
+
+
+
+     
+     
+  
 
 
 <img width="1422" alt="Screen Shot 2024-09-23 at 10 34 31 PM" src="https://github.com/user-attachments/assets/5a5cb8c9-4ea1-492d-be0d-bb621e90488d">
