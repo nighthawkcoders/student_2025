@@ -27,6 +27,10 @@ hide: false
   - Soccer
   - Reading
   - Videogaming
+    ## TRAITS
+    LOYALTY
+    HONESTY
+    CURIOSITY
     ## Achievments
 
      ![image](https://github.com/user-attachments/assets/3f69d0e0-44e6-4c32-8d22-dbeac0c359d3)
