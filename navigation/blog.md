@@ -1,4 +1,4 @@
-layout: Blogs
+layout: base
 title:  Blogs
 description: Progress throguhout the course
 author: Amal Jinan
