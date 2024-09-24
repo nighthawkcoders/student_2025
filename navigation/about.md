@@ -42,15 +42,28 @@ hide: false
 
 
 
+     
+     
+     
      ![image](https://github.com/user-attachments/assets/3f69d0e0-44e6-4c32-8d22-dbeac0c359d3)
   
     Built one of the most succesful search engines in the world
 
 
+ 
+    
+    
+    
     ![image](https://github.com/user-attachments/assets/7a466fa1-5494-4fe9-a620-d70aed9bb569)
     
     Extensive Islamic Knowledge
 
+    
+     
+     
+     
+     
+     
      ![image](https://github.com/user-attachments/assets/e54a18f1-7ebc-44b8-9ac1-aabd001d8964)6
     3rd in Spanda spelling bee 2016
 
