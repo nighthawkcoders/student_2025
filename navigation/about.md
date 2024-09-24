@@ -34,7 +34,8 @@ hide: false
     3rd in Spanda spelling bee 2016
 
 
-     ![image](https://github.com/user-attachments/assets/ab49b25a-6318-46ac-98e7-8ae9b22d46e1
+<img width="1422" alt="Screen Shot 2024-09-23 at 10 34 31 PM" src="https://github.com/user-attachments/assets/5a5cb8c9-4ea1-492d-be0d-bb621e90488d">
+
     Vice President of Oak Valley Coding Club
     Knows a deep level of Python
 
@@ -47,7 +48,7 @@ hide: false
     ## Role Models
 
   
-     ![image](https://github.com/user-attachments/assets/06eed72d-029b-4aba-b839-522f07ad9510)
+![image](https://github.com/user-attachments/assets/5cf29d46-655c-41ad-9161-64730dcf2b4f)
     Extensive Research into Astrophysics
 
 
