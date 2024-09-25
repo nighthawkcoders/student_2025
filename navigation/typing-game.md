@@ -5,137 +5,133 @@ permalink: /Typing Game/
 ---
 
 
-import GameEnv from './GameEnv.js';
-
-const WORDS = ['apple', 'banana', 'cherry', 'date', 'elderberry']; // Word list
-const TIME_LIMIT = 5; // Time in seconds to type each word
-
-/**
- * TypingGame class handles game logic for a simple typing game.
- * 
- * The player must type the displayed word within a time limit.
- * If successful, a new word is displayed, and the player's score increases.
- */
-class TypingGame {
-    constructor() {
-        this.currentWord = ''; // Word to be typed
-        this.typedWord = ''; // Player's current input
-        this.score = 0; // Player's score
-        this.timer = TIME_LIMIT; // Time left to type the word
-        this.gameOver = false; // Game status
-
-        this.generateNewWord(); // Start with a new word
-        this.bindEventListeners(); // Bind keyboard event listeners
-    }
-
-    /**
-     * Generates a new random word from the word list.
-     */
-    generateNewWord() {
-        this.currentWord = WORDS[Math.floor(Math.random() * WORDS.length)];
-        this.typedWord = ''; // Reset player's input
-        this.timer = TIME_LIMIT; // Reset timer
-    }
-
-    /**
-     * Draws the game state onto the canvas.
-     */
-    draw() {
-        GameEnv.ctx.clearRect(0, 0, GameEnv.innerWidth, GameEnv.innerHeight); // Clear canvas
-
-        // Display the current word
-        GameEnv.ctx.font = '40px Arial';
-        GameEnv.ctx.fillStyle = 'black';
-        GameEnv.ctx.fillText(`Word: ${this.currentWord}`, 100, 100);
-
-        // Display the player's input
-        GameEnv.ctx.font = '30px Arial';
-        GameEnv.ctx.fillStyle = 'green';
-        GameEnv.ctx.fillText(`Typed: ${this.typedWord}`, 100, 150);
-
-        // Display the score and timer
-        GameEnv.ctx.fillStyle = 'blue';
-        GameEnv.ctx.fillText(`Score: ${this.score}`, 100, 200);
-        GameEnv.ctx.fillText(`Time: ${this.timer.toFixed(1)}`, 100, 250);
-
-        // Display game over message if game is over
-        if (this.gameOver) {
-            GameEnv.ctx.fillStyle = 'red';
-            GameEnv.ctx.fillText('Game Over!', 100, 300);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <style>
+        canvas {
+            border: 1px solid black;
         }
-    }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
 
-    /**
-     * Updates the game state (timer and check for word completion).
-     */
-    update(deltaTime) {
-        if (this.gameOver) return;
+    <script type="module">
+        // Set up canvas and context
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
 
-        // Decrease timer by deltaTime
-        this.timer -= deltaTime;
+        // Game environment object
+        const GameEnv = {
+            ctx: ctx,
+            innerWidth: canvas.width,
+            innerHeight: canvas.height
+        };
 
-        // If timer runs out, end the game
-        if (this.timer <= 0) {
-            this.gameOver = true;
-            return;
+        // Typing Game Class
+        class TypingGame {
+            constructor() {
+                this.words = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+                this.currentWord = '';
+                this.typedWord = '';
+                this.score = 0;
+                this.timer = 5;
+                this.gameOver = false;
+
+                this.generateNewWord();
+                this.bindEventListeners();
+                this.startGameLoop();
+            }
+
+            generateNewWord() {
+                this.currentWord = this.words[Math.floor(Math.random() * this.words.length)];
+                this.typedWord = '';
+                this.timer = 5; // Reset timer for new word
+            }
+
+            draw() {
+                GameEnv.ctx.clearRect(0, 0, GameEnv.innerWidth, GameEnv.innerHeight); // Clear canvas
+
+                GameEnv.ctx.font = '40px Arial';
+                GameEnv.ctx.fillStyle = 'black';
+                GameEnv.ctx.fillText(`Word: ${this.currentWord}`, 100, 100);
+
+                GameEnv.ctx.font = '30px Arial';
+                GameEnv.ctx.fillStyle = 'green';
+                GameEnv.ctx.fillText(`Typed: ${this.typedWord}`, 100, 150);
+
+                GameEnv.ctx.fillStyle = 'blue';
+                GameEnv.ctx.fillText(`Score: ${this.score}`, 100, 200);
+                GameEnv.ctx.fillText(`Time: ${this.timer.toFixed(1)}`, 100, 250);
+
+                if (this.gameOver) {
+                    GameEnv.ctx.fillStyle = 'red';
+                    GameEnv.ctx.fillText('Game Over!', 100, 300);
+                }
+            }
+
+            update(deltaTime) {
+                if (this.gameOver) return;
+
+                this.timer -= deltaTime;
+
+                if (this.timer <= 0) {
+                    this.gameOver = true;
+                    return;
+                }
+
+                if (this.typedWord === this.currentWord) {
+                    this.score += 1;
+                    this.generateNewWord();
+                }
+
+                this.draw();
+            }
+
+            handleInput(key) {
+                if (this.gameOver) return;
+
+                if (key === 'Backspace') {
+                    this.typedWord = this.typedWord.slice(0, -1);
+                } else if (key.length === 1 && /^[a-zA-Z]$/.test(key)) {
+                    this.typedWord += key;
+                }
+            }
+
+            bindEventListeners() {
+                window.addEventListener('keydown', (event) => {
+                    this.handleInput(event.key);
+                });
+            }
+
+            startGameLoop() {
+                let lastTime = 0;
+
+                const gameLoop = (timeStamp) => {
+                    const deltaTime = (timeStamp - lastTime) / 1000; // Time in seconds
+                    lastTime = timeStamp;
+
+                    this.update(deltaTime);
+
+                    if (!this.gameOver) {
+                        requestAnimationFrame(gameLoop);
+                    }
+                };
+
+                requestAnimationFrame(gameLoop);
+            }
         }
 
-        // If player typed the correct word, update score and generate new word
-        if (this.typedWord === this.currentWord) {
-            this.score += 1;
-            this.generateNewWord();
-        }
+        // Start the Typing Game
+        const game = new TypingGame();
+    </script>
+</body>
+</html>
 
-        this.draw(); // Redraw game state
-    }
-
-    /**
-     * Handles player input for typing the word.
-     */
-    handleInput(key) {
-        if (this.gameOver) return;
-
-        // If backspace is pressed, remove the last character
-        if (key === 'Backspace') {
-            this.typedWord = this.typedWord.slice(0, -1);
-        } else if (key.length === 1 && /^[a-zA-Z]$/.test(key)) {
-            // Add the key to the typed word if it's a letter
-            this.typedWord += key;
-        }
-    }
-
-    /**
-     * Binds keyboard event listeners for typing.
-     */
-    bindEventListeners() {
-        addEventListener('keydown', (event) => {
-            this.handleInput(event.key);
-        });
-    }
-}
-
-// Initialize and start the game
-const game = new TypingGame();
-let lastTime = 0;
-
-/**
- * Game loop to update and render the game at a regular interval.
- * @param {number} timeStamp - Current time stamp from requestAnimationFrame.
- */
-function gameLoop(timeStamp) {
-    const deltaTime = (timeStamp - lastTime) / 1000; // Convert to seconds
-    lastTime = timeStamp;
-
-    game.update(deltaTime); // Update the game state
-
-    // Continue the game loop
-    if (!game.gameOver) {
-        requestAnimationFrame(gameLoop);
-    }
-}
-
-// Start the game loop
-requestAnimationFrame(gameLoop);
-
-export default TypingGame;
 
