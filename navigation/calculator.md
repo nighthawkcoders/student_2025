@@ -8,7 +8,7 @@ permalink: /calculator/
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
+    <title>Advanced Calculator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -102,9 +102,16 @@ permalink: /calculator/
         <button id="1">1</button>
         <button id="2">2</button>
         <button id="3">3</button>
-
+        
         <button class="equals" id="equals">=</button>
         <button id="0">0</button>
+
+        <!-- Advanced functions -->
+        <button class="operator" id="exp">^</button>
+        <button class="operator" id="sqrt">√</button>
+        <button class="operator" id="sin">sin</button>
+        <button class="operator" id="cos">cos</button>
+        <button class="operator" id="tan">tan</button>
     </div>
 
     <script type="module">
@@ -137,7 +144,7 @@ permalink: /calculator/
         });
 
         // Handle operator buttons click
-        const operatorButtons = document.querySelectorAll('.operator');
+        const operatorButtons = document.querySelectorAll('.operator:not(#exp):not(#sqrt):not(#sin):not(#cos):not(#tan)');
         operatorButtons.forEach(button => {
             button.addEventListener('click', () => {
                 if (currentValue !== '') {
@@ -146,6 +153,43 @@ permalink: /calculator/
                     currentValue = '';
                 }
             });
+        });
+
+        // Handle advanced functions: exponent, sqrt, sin, cos, tan
+        document.getElementById('exp').addEventListener('click', () => {
+            if (currentValue !== '') {
+                previousValue = currentValue;
+                operator = '^';
+                currentValue = '';
+            }
+        });
+
+        document.getElementById('sqrt').addEventListener('click', () => {
+            if (currentValue !== '') {
+                currentValue = Math.sqrt(parseFloat(currentValue)).toString();
+                updateDisplay(currentValue);
+            }
+        });
+
+        document.getElementById('sin').addEventListener('click', () => {
+            if (currentValue !== '') {
+                currentValue = Math.sin(parseFloat(currentValue) * Math.PI / 180).toString();
+                updateDisplay(currentValue);
+            }
+        });
+
+        document.getElementById('cos').addEventListener('click', () => {
+            if (currentValue !== '') {
+                currentValue = Math.cos(parseFloat(currentValue) * Math.PI / 180).toString();
+                updateDisplay(currentValue);
+            }
+        });
+
+        document.getElementById('tan').addEventListener('click', () => {
+            if (currentValue !== '') {
+                currentValue = Math.tan(parseFloat(currentValue) * Math.PI / 180).toString();
+                updateDisplay(currentValue);
+            }
         });
 
         // Handle equals button click
@@ -164,6 +208,9 @@ permalink: /calculator/
                         break;
                     case 'divide':
                         result = parseFloat(previousValue) / parseFloat(currentValue);
+                        break;
+                    case '^':
+                        result = Math.pow(parseFloat(previousValue), parseFloat(currentValue));
                         break;
                 }
                 updateDisplay(result);
