@@ -13,6 +13,9 @@ permalink: /Codenite/
     <style>
         canvas {
             border: 1px solid black;
+            display: block;
+            margin: auto;
+            background-color: #f0f0f0; /* Light background for contrast */
         }
     </style>
 </head>
@@ -33,58 +36,42 @@ permalink: /Codenite/
             innerHeight: canvas.height
         };
 
-        // Bullet Class
+        // Bullet class
         class Bullet {
             constructor(x, y) {
                 this.x = x;
                 this.y = y;
                 this.radius = 5;
-                this.speed = 500; // pixels per second
+                this.speed = 5;
             }
 
-            update(deltaTime) {
-                this.y -= this.speed * deltaTime; // Move bullet upwards
+            update() {
+                this.y -= this.speed; // Move bullet upwards
             }
 
             draw() {
-                GameEnv.ctx.fillStyle = 'red';
+                GameEnv.ctx.fillStyle = 'black';
                 GameEnv.ctx.beginPath();
                 GameEnv.ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
                 GameEnv.ctx.fill();
             }
         }
 
-        // Target Class
-        class Target {
-            constructor() {
-                this.x = Math.random() * GameEnv.innerWidth;
-                this.y = Math.random() * (GameEnv.innerHeight / 2);
-                this.radius = 20;
-            }
-
-            draw() {
-                GameEnv.ctx.fillStyle = 'green';
-                GameEnv.ctx.beginPath();
-                GameEnv.ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-                GameEnv.ctx.fill();
-            }
-        }
-
-        // Shooter Game Class
+        // Shooter Game class
         class ShooterGame {
             constructor() {
                 this.bullets = [];
-                this.targets = [];
                 this.score = 0;
-                this.spawnTarget();
+                this.gunX = GameEnv.innerWidth / 2;
+                this.gunY = GameEnv.innerHeight - 50; // Position above the bottom
 
                 this.bindEventListeners();
                 this.startGameLoop();
             }
 
-            spawnTarget() {
-                this.targets.push(new Target());
-                setTimeout(() => this.spawnTarget(), 2000); // Spawn a new target every 2 seconds
+            drawGun() {
+                GameEnv.ctx.fillStyle = 'blue'; // Color of the gun
+                GameEnv.ctx.fillRect(this.gunX - 25, this.gunY, 50, 20); // Simple rectangle as gun
             }
 
             draw() {
@@ -93,8 +80,8 @@ permalink: /Codenite/
                 // Draw bullets
                 this.bullets.forEach(bullet => bullet.draw());
 
-                // Draw targets
-                this.targets.forEach(target => target.draw());
+                // Draw the gun
+                this.drawGun();
 
                 // Draw score
                 GameEnv.ctx.fillStyle = 'blue';
@@ -102,52 +89,33 @@ permalink: /Codenite/
                 GameEnv.ctx.fillText(`Score: ${this.score}`, 10, 30);
             }
 
-            update(deltaTime) {
+            update() {
                 // Update bullets
-                this.bullets.forEach(bullet => bullet.update(deltaTime));
-
-                // Remove bullets that are off-screen
-                this.bullets = this.bullets.filter(bullet => bullet.y > 0);
-
-                // Collision detection
-                this.bullets.forEach(bullet => {
-                    this.targets.forEach(target => {
-                        const dx = bullet.x - target.x;
-                        const dy = bullet.y - target.y;
-                        const distance = Math.sqrt(dx * dx + dy * dy);
-
-                        if (distance < bullet.radius + target.radius) {
-                            this.score++;
-                            this.targets = this.targets.filter(t => t !== target);
-                        }
-                    });
-                });
-
-                this.draw();
+                this.bullets.forEach(bullet => bullet.update());
+                this.bullets = this.bullets.filter(bullet => bullet.y > 0); // Remove bullets that are off screen
             }
 
-            handleShoot(x, y) {
-                this.bullets.push(new Bullet(x, y));
+            shoot() {
+                const bullet = new Bullet(this.gunX, this.gunY); // Start bullet from gun's position
+                this.bullets.push(bullet);
             }
 
             bindEventListeners() {
-                window.addEventListener('click', (event) => {
-                    this.handleShoot(event.clientX, event.clientY);
+                window.addEventListener('mousemove', (event) => {
+                    this.gunX = event.clientX; // Update gun position to mouse's x coordinate
+                });
+
+                window.addEventListener('click', () => {
+                    this.shoot(); // Shoot bullet on mouse click
                 });
             }
 
             startGameLoop() {
-                let lastTime = 0;
-
-                const gameLoop = (timeStamp) => {
-                    const deltaTime = (timeStamp - lastTime) / 1000; // Time in seconds
-                    lastTime = timeStamp;
-
-                    this.update(deltaTime);
-
+                const gameLoop = () => {
+                    this.update();
+                    this.draw();
                     requestAnimationFrame(gameLoop);
                 };
-
                 requestAnimationFrame(gameLoop);
             }
         }
@@ -157,3 +125,4 @@ permalink: /Codenite/
     </script>
 </body>
 </html>
+
