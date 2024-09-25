@@ -50,10 +50,24 @@ permalink: /Codenite/
             }
 
             draw() {
-                GameEnv.ctx.fillStyle = 'black';
+                GameEnv.ctx.fillStyle = 'black'; // Color of the bullet
                 GameEnv.ctx.beginPath();
                 GameEnv.ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
                 GameEnv.ctx.fill();
+            }
+        }
+
+        // Target class
+        class Target {
+            constructor() {
+                this.x = Math.random() * (GameEnv.innerWidth - 30); // Random x position
+                this.y = Math.random() * (GameEnv.innerHeight / 2); // Random y position
+                this.size = 30; // Size of the target
+            }
+
+            draw() {
+                GameEnv.ctx.fillStyle = 'black'; // Color of the target
+                GameEnv.ctx.fillRect(this.x, this.y, this.size, this.size); // Draw target as a square
             }
         }
 
@@ -61,6 +75,7 @@ permalink: /Codenite/
         class ShooterGame {
             constructor() {
                 this.bullets = [];
+                this.targets = [new Target()]; // Create an initial target
                 this.score = 0;
                 this.gunX = GameEnv.innerWidth / 2;
                 this.gunY = GameEnv.innerHeight - 50; // Position above the bottom
@@ -80,6 +95,9 @@ permalink: /Codenite/
                 // Draw bullets
                 this.bullets.forEach(bullet => bullet.draw());
 
+                // Draw targets
+                this.targets.forEach(target => target.draw());
+
                 // Draw the gun
                 this.drawGun();
 
@@ -93,6 +111,30 @@ permalink: /Codenite/
                 // Update bullets
                 this.bullets.forEach(bullet => bullet.update());
                 this.bullets = this.bullets.filter(bullet => bullet.y > 0); // Remove bullets that are off screen
+
+                // Check for collisions with targets
+                this.checkCollisions();
+            }
+
+            checkCollisions() {
+                this.bullets.forEach((bullet, bulletIndex) => {
+                    this.targets.forEach((target, targetIndex) => {
+                        if (
+                            bullet.x > target.x &&
+                            bullet.x < target.x + target.size &&
+                            bullet.y > target.y &&
+                            bullet.y < target.y + target.size
+                        ) {
+                            // Remove target and bullet if they collide
+                            this.targets.splice(targetIndex, 1);
+                            this.bullets.splice(bulletIndex, 1);
+                            this.score += 1; // Increment score
+
+                            // Create a new target
+                            this.targets.push(new Target());
+                        }
+                    });
+                });
             }
 
             shoot() {
