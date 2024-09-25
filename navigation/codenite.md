@@ -1,3 +1,9 @@
+---
+layout: base
+title: CodeFree
+permalink: /Codenite/
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
