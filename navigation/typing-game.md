@@ -59,7 +59,7 @@ permalink: /Typing Game/
                 GameEnv.ctx.clearRect(0, 0, GameEnv.innerWidth, GameEnv.innerHeight); // Clear canvas
 
                 GameEnv.ctx.font = '40px Arial';
-                GameEnv.ctx.fillStyle = 'black';
+                GameEnv.ctx.fillStyle = 'red';  // Change word color to red
                 GameEnv.ctx.fillText(`Word: ${this.currentWord}`, 100, 100);
 
                 GameEnv.ctx.font = '30px Arial';
@@ -133,5 +133,6 @@ permalink: /Typing Game/
     </script>
 </body>
 </html>
+
 
 
