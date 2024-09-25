@@ -37,7 +37,7 @@ permalink: /Typing Game/
         // Typing Game Class
         class TypingGame {
             constructor() {
-                this.words = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+                this.words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'dog', 'cat'];
                 this.currentWord = '';
                 this.typedWord = '';
                 this.score = 0;
