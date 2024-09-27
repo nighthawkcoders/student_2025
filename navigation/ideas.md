@@ -1,6 +1,8 @@
 ---
-layout: search 
-title: Search
-search_exclude: true
-permalink: /ideas/
+layout: base
+title: Ideas/Hack
+description: Ideas
+author: Amal Jinan
+image: /images/mario_animation.png
+hide: false
 ---
