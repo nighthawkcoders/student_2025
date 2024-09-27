@@ -95,6 +95,37 @@ hide: false
 ![image2](https://github.com/user-attachments/assets/fe63f52c-9044-4e0d-ba56-3dd01eb2e307)
 ![image3](https://github.com/user-attachments/assets/04037765-8b57-449f-91bf-08ca64c67c22)
 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scroll</title>
+    <style>
+        .scroll-container {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .scroll-container img {
+            height: 200px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-container">
+        <img src="https://github.com/user-attachments/assets/8e7e0410-0850-4c60-ad49-dcbdbdcdb64e" alt="Image 1">
+        <img src="https://github.com/user-attachments/assets/fe63f52c-9044-4e0d-ba56-3dd01eb2e307" alt="Image 2">
+        <img src="https://github.com/user-attachments/assets/04037765-8b57-449f-91bf-08ca64c67c22" alt="Image 3">
+    </div>
+</body>
+</html>
+
 <script src="https://utteranc.es/client.js"
         repo="AmalJinan/Amal_2025"
         issue-term="pathname"
