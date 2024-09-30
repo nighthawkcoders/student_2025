@@ -125,6 +125,16 @@ hide: false
     </div>
 </body>
 </html>
+# remote_theme: pages-themes/midnight@v0.2.0
+#remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/dinky@v0.2.0
+# remote_theme: pages-themes/time-machine@v0.2.0
+# remote_theme: pages-themes/architect@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+
+ 
 
 <script src="https://utteranc.es/client.js"
         repo="AmalJinan/Amal_2025"
