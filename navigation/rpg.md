@@ -17,7 +17,7 @@ permalink: /rpg/
     const image = {src: image_src, data: image_data};
 
     // Sprite data
-    const sprite_src = "{{site.baseurl}}/images/rpg/ninja.png";
+    const sprite_src = "{{site.baseurl}}/images/rpg/Free-Ninja-Sprite-Sheets-Pixel-Art2.jpg";
     const sprite_data = {
         SCALE_FACTOR: 10,
         STEP_FACTOR: 1000,
