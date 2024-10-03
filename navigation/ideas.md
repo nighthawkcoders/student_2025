@@ -16,9 +16,14 @@ Player.js: Creates the player.
 
 
 ### Ideation hack
+
+### concept
+The player is stranded on a deserted cloud and must gather resources (like water, food, and needs to safely get to land) to survive.
 ## Add an NPC- Add an interactable npc that can give you quests for loot and helps you navigate around the map
 ### Add weapons- 
-You can use Weapons to fight NPCs for loot
+You can use Weapons to fight NPCs for loot and also add sheilds that can protect you from being damaged.
+### Add mobs
+
 ### Add Levels- 
 Every time you kill a certain number of NPCS you level up, and level up increases your max health
 ### Health 
@@ -33,3 +38,5 @@ Everytime you finish a level, you automatically change the background.
 Add a button where you can change the music
 ### Avatars
 A customizable menu where you can change your avatar, hats/clothes/hair etc..
+### Fruits
+Fruits can heal you and there are also thorns and moving blocks to give it a parkour like feeling
