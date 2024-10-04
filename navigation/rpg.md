@@ -12,7 +12,7 @@ permalink: /rpg/
     // Background data
     const image_src = "{{site.baseurl}}/images/rpg/fire.jpg";
     const image_data = {
-        pixels: {height: 580, width: 1038}
+        pixels: {height: 250, width: 420}
     };
     const image = {src: image_src, data: image_data};
 
