@@ -9,6 +9,26 @@ hide: false
 <!DOCTYPE html>
 <html>
 <body>
+ <audio id="myAudio">
+  <source src="https://www.sousound.com/music/jingle/jingle_02.mp3" type="audio/mpeg">
+</audio>
+
+<p>Click the button to play and pause the audio.</p>
+
+<button onclick="playAudio()" type="button">Play </button>
+<button onclick="pauseAudio()" type="button">Pause </button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
 <h1> ESSENTIALS OF DEVELOPMENT TOOLS </h1>
 <h2> ACTIVATE TOOLS SETUP TUTORIAL </h2>
 <p> 
