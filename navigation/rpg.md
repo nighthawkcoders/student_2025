@@ -17,7 +17,7 @@ permalink: /rpg/
     const image = {src: image_src, data: image_data};
 
     // Sprite data
-    const sprite_src_turtle = "{{site.baseurl}}/images/rpg/turtle.png";
+    const sprite_src_turtle = "{{site.baseurl}}/images/rpg/8-bits-characters-gaming-assets_23-2151143769.jpg";
     const sprite_data_turtle = {
         SCALE_FACTOR: 10,
         STEP_FACTOR: 1000,
