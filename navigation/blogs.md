@@ -97,10 +97,10 @@ git config --global --list<br>
 
 
 <p> <a href="https://github.com/AmalJinan/Amal_2025/issues/15"> Integration Issue </a></p>
-<p> <a <href="https://github.com/AmalJinan/Amal_2025/blob/main/assets/js/rpg/Player.js"> rpg code example </a> </p> <br> 
+<p> <a href="https://github.com/AmalJinan/Amal_2025/blob/main/assets/js/rpg/Player.js"> RPG EXAMPLE CODE </a> </p>  
  <p>
-  <a> 
-     Scale Factor - It defines the player size and the height and width and also defies the canvas height <br> 
+
+  Scale Factor - It defines the player size and the height and width and also defies the canvas height <br> 
     
     
     Step Factor-Speed control, player takes 1/nth steps (fast but not too fast) <br>
@@ -114,7 +114,7 @@ git config --global --list<br>
     <b>Step 2:</b> Set player properties (either from sprite data or default values) <br>
     
      
-    <b>Step 3:</b> Load up the sprite sheet (or don’t, and be a red square superstar) <be>
+    <b>Step 3:</b> Load up the sprite sheet (or don’t, and be a red square superstar) <br>
           <p><a href="https://github.com/AmalJinan/Amal_2025/blob/main/images/rpg/turtle.png"> Sample Turtle Sprite sheet </a></p> <br>
 
          
@@ -135,7 +135,7 @@ git config --global --list<br>
           Resizes the player when the window size changes. Adapt or perish! <br>
        bindEventListeners() <br>
 
-  </a>
+
 </p> 
 <h2> 
   Personalization 
