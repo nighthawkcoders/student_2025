@@ -16,6 +16,24 @@ permalink: /rpg/
     };
     const image = {src: image_src, data: image_data};
 
+    let on_off = document.querySelector('.container .title');
+    let audio = document.querySelector('.musicOn audio');
+
+    on_off.onclick = function() {
+        audio.paused ? audio.play() : music_stop();
+    }
+
+    function music_stop() {
+        audio.pause();
+        audio.currentTime = 0;
+    }
+    <div class="musicOn">
+    <audio id="audio" style="display:none;" src="https://ahweb.org.uk/blackbird.mp3" controls autoplay loop>
+  </div>
+  <div class="container">
+    <h1 class="title">Play <span>The</span> Music</h1>
+  </div>   
+
     // Sprite data
     const sprite_src_turtle = "{{site.baseurl}}/images/rpg/turtle.png";
     const sprite_data_turtle = {
