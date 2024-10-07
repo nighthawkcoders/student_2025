@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Ideas/Hack
-description: Ideas
+title: Blogs/Hack
+description: Blogs
 author: Amal Jinan
 hide: false
 ---
