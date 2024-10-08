@@ -119,16 +119,16 @@ git config --global --list<br>
     </p>
  <h2> Player.js Explanation </h2>
 
- <p id=keyparts ></p>
+ <p id = keyparts></p>
 
  <script>
- const files = ["Get the game environment dimensions"," Set player properties"," Load up the sprite sheet","Size matters! Adjust player size relative to the canvas","Set initial player position and velocity","Let’s resize our player, and hook up some event listeners" ];
- let text = "";
-  for (let i=0; i < files.length; i++)
+ const keys = ["Get the game environment dimensions"," Set player properties"," Load up the sprite sheet","Size matters! Adjust player size relative to the canvas","Set initial player position and velocity","Let’s resize our player, and hook up some event listeners" ];
+ let parts = "";
+  for (let i=0; i < keys.length; i++)
    {
-    text +=files[i] + "<br>";
+    parts += keys[i] + "<br>";
     }
-  document.getElementById("keyparts").innerHTML = text;
+  document.getElementById("keyparts").innerHTML = parts;
  </script>
  
 <p>
