@@ -91,7 +91,7 @@ After running these commands, you can verify the configurations by running: <br>
 git config --global --list<br>
 </p> 
   <h2> Files in Project </h2>
-<p id=filelist >
+<p id=filelist ></p>
  <script>
  const files = ["player.js","GameENV.js","rpg.md"];
 let text = "";
@@ -99,9 +99,9 @@ let text = "";
    {
     text +=files[i] + "<br>";
     }
-  document.getElementById("demo").innerHTML = text;
+  document.getElementById("filelist").innerHTML = text;
  </script>
-</p>
+
 
 <p> <a href="https://github.com/AmalJinan/Amal_2025/issues/15"> Integration Issue </a></p>
 <p> <a href="https://github.com/AmalJinan/Amal_2025/blob/main/assets/js/rpg/Player.js"> RPG EXAMPLE CODE </a> </p>  
