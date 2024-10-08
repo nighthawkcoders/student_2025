@@ -17,7 +17,7 @@ permalink: /rpg/
     const image = {src: image_src, data: image_data};
 
     // Sprite data
-    const sprite_src = "{{site.baseurl}}/images/rpg/248259.png";
+    const sprite_src = "{{site.baseurl}}/images/rpg/good.jpg";
     const sprite_data = {
         SCALE_FACTOR: 10,
         STEP_FACTOR: 1000,
