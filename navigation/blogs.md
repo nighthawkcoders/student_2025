@@ -91,10 +91,12 @@ After running these commands, you can verify the configurations by running: <br>
 git config --global --list<br>
 </p> 
   <h2> Files in Project </h2>
+  
 <p id=filelist ></p>
+
  <script>
  const files = ["player.js","GameENV.js","rpg.md"];
-let text = "";
+ let text = "";
   for (let i=0; i < files.length; i++)
    {
     text +=files[i] + "<br>";
@@ -114,8 +116,22 @@ let text = "";
     
 
     const ANIMATION_RATE-  Frames per second (FPS) for sprite animations, 'cause smooth is cool <br>
-    
+    </p>
  <h2> Player.js Explanation </h2>
+
+ <p id=keyparts ></p>
+
+ <script>
+ const files = ["Get the game environment dimensions"," Set player properties"," Load up the sprite sheet","Size matters! Adjust player size relative to the canvas","Set initial player position and velocity","Let’s resize our player, and hook up some event listeners" ];
+ let text = "";
+  for (let i=0; i < files.length; i++)
+   {
+    text +=files[i] + "<br>";
+    }
+  document.getElementById("keyparts").innerHTML = text;
+ </script>
+ 
+<p>
     <b>Step 1:</b> Get the game environment dimensions <br>
      
     <b>Step 2:</b> Set player properties (either from sprite data or default values) <br>
