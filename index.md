@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Course Descriptions
-description: An overview of Computer Science pathway at Del Norte High School
+title: Amalś Github site
+description: My index
 author: John Mortensen, Vivian Ni, Bria Gilliam
 image: /images/mario_animation.png
 hide: false
