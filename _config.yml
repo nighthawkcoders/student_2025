@@ -11,6 +11,7 @@ header_pages:
   - navigation/Home-Page.md
   - navigation/ideas.md
   - navigation/blogs.md
+  -navigation/popcornhack.ipynb
   - README4YML.md
 
 title: Nighthawk Pages 
