@@ -1,11 +1,12 @@
-title: Nighthawk Pages 
+title: Yash's Pages 
 description: "Class of 2025"
 owner_name: John Mortensen
 github_username: nighthawkcoders
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+github_repo: "yash1_2025" 
+baseurl: "/yash1_2025"
+
 future: true
-remote_theme: jekyll/minima
+remote_theme: pages-themes/cayman@v0.2.0
 minima:
   skin: dark
   social_links:
@@ -20,7 +21,11 @@ minima:
 plugins:
   - jekyll-remote-theme
 header_pages:
+  - navigation/liverpool.md
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
+  - navigation/journey.md
   - README4YML.md
+
+
