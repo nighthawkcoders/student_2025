@@ -10,6 +10,7 @@ hide: true
 <table>
     <tr>
         <td><a href="{{site.baseurl}}/struggles/">Struggles Notebook</a></td>
+         <td><a href="{{site.baseurl}}/hwb/">Sprint Two Blog</a></td>
         <td><a href="{{site.baseurl}}/javascript/">Java Script Notebook</a></td>
         <td><a href="{{site.baseurl}}/pythonnb/">Python Notebook</a></td>
  </tr>
