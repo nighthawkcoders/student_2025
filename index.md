@@ -2,8 +2,8 @@
 layout: base
 title: Amalś Github site
 description: My index
-author: John Mortensen, Vivian Ni, Bria Gilliam
-image: /images/mario_animation.png
+author: Amal Jinan
+image: /images/turtle.png
 hide: false
 ---
 
