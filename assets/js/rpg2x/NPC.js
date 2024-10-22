@@ -94,8 +94,8 @@ class NPC extends Player {
                 var distance = Math.sqrt(
                     Math.pow(player.position.x - npc.position.x, 2) + Math.pow(player.position.y - npc.position.y, 2)
                 );
-                // The distance is less than 100 pixels
-                if (player != npc && distance <= 100) {
+                // The distance is less than 1000 pixels
+                if (player != npc && distance <= 1000) {
                     names.push(player.spriteData.name);
                 }
             });
