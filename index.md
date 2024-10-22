@@ -58,6 +58,26 @@ hide: false
 </div>
 </div>
 
+<br>
+
+### College Articulation
+
+> Here is my preparation for college topics, click to review my blogs
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Variables I/O
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-types/" style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Data Types
+        </div>
+    </a>
+</div>
+
+<br>
 <script src="https://utteranc.es/client.js"
         repo="AmalJinan/Amal_2025"
         issue-term="pathname"
