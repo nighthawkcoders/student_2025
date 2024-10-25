@@ -46,12 +46,12 @@ hide: false
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg" style="text-decoration: none;">
-        <div style="background-color: #FFFF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #FFFF00; color: green; padding: 10px 20px; border-radius: 5px; font-weight: medium;">
             Turtle v0.2
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg" style="text-decoration: none;">
-        <div style="background-color: #880088; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #880088; color: blue; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle v0.3
         </div>
     </a>
@@ -66,12 +66,12 @@ hide: false
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
-        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #000000; color: orangle; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Variables I/O
         </div>
     </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-types/" style="text-decoration: none;">
-        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #000000; color: red; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Data Types
         </div>
     </a>
