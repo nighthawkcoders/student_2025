@@ -63,6 +63,12 @@ hide: false
 ### College Articulation
 
 > Here is my preparation for college topics, click to review my blogs
+ <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/navigation/popcornhack.ipynb" style="text-decoration: none;">
+        <div style="background-color: #000000; color: orange; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Variables I/O
+        </div>
+    </a>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
