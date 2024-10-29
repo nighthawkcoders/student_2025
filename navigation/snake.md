@@ -131,7 +131,7 @@ permalink: /snake/
         // HTML Screen IDs (div)
         const SCREEN_MENU = -1, SCREEN_GAME_OVER=1, SCREEN_SETTING=2;
         const screen_menu = document.getElementById("menu");
-        const screen_game_over = document.getElementById("gameover");
+        const screen_game_over = document.getElementById("Youhavenoaura");
         const screen_setting = document.getElementById("setting");
         // HTML Event IDs (a tags)
         const button_new_game = document.getElementById("new_game");
