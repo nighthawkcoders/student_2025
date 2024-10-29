@@ -15,8 +15,8 @@ add_to_rc() {
 
 add_to_rc 'alias code="code --no-sandbox"'
 add_to_rc 'alias venv="source venv/bin/activate"'
-add_to_rc "git config --global user.name $GIT_USER_NAME"
-add_to_rc "git config --global user.email $GIT_USER_EMAIL"
+add_to_rc "git config --global user.name $AmalJinan"
+add_to_rc "git config --global user.email $amalji1022@gmail.com"
 
 #### Github Pages Local Build support
 echo "=== GitHub pages build tools  ==="
