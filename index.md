@@ -392,7 +392,7 @@ div.absolute {
     <a href="http://127.0.0.1:4100/zoehe_2025/javascript/">Javascript</a>
     <a href="http://127.0.0.1:4100/zoehe_2025/reflection/">Reflection</a>
     <a href="http://127.0.0.1:4100/zoehe_2025/frontend/">Frontend</a>
-    <a href="http://127.0.0.1:4100/zoehe_2025/python3/">python3 Hacks</a>
+    <a href="http://127.0.0.1:4100/zoehe_2025/python3/">Python Hacks</a>
     <a href="http://127.0.0.1:4100/zoehe_2025/HACKS/">Homework Hacks</a>
   </div>
 <div class="dropdown">
