@@ -82,6 +82,24 @@ hide: false
         </div>
     </a>
 </div>
+<div class="button-container">
+    <a href="{{site.baseurl}}/_notebooks/Sprint 2/Nested_Conditionals" class="glow-button-blue-purple">
+        Nested Condtiionals
+        <span class="glow-effect"></span>
+    </a>
+    <a href="{{site.baseurl}}/_notebooks/Foundation/sprint 2/fundamentals/Mathematic_Expressions/2024-10-31-operators.ipynb" class="glow-button-blue-purple">
+        Data Types
+        <span class="glow-effect"></span>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/for-loops/" class="glow-button-blue-purple">
+        Loops and sprites
+        <span class="glow-effect"></span>
+    </a>
+    <a href="{{site.baseurl}}/javascript/2024/09/15/javascript_output_objects_IPYNB_2_.html" class="glow-button-blue-purple">
+        JavaScript output
+        <span class="glow-effect"></span>
+    </a>
+</div>
 
 <br>
 <script src="https://utteranc.es/client.js"
