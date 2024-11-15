@@ -29,6 +29,7 @@ hide: false
 
 > Here is my progress through game coding, click to see these online
 
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
         <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
@@ -55,6 +56,11 @@ hide: false
             Turtle v0.3
         </div>
     </a>
+    <a href="{{site.baseurl}}/rpg" style="text-decoration: none;">
+        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Turtle v0.0
+        </div>
+    </a>
 </div>
 </div>
 
@@ -66,10 +72,15 @@ hide: false
  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/navigation/popcornhack.ipynb" style="text-decoration: none;">
         <div style="background-color: #000000; color: orange; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Variables I/O
+            Loops Hack
         </div>
     </a>
-
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/_notebooks/Sprint 2/Classes_and_Methods/2024-11-04-classes-hw.ipynb" style="text-decoration: none;">
+        <div style="background-color: #000000; color: orange; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Classes
+        </div>
+    </a>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
         <div style="background-color: #000000; color: orangle; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
@@ -88,7 +99,7 @@ hide: false
         <span class="glow-effect"></span>
     </a>
     <a href="{{site.baseurl}}/_notebooks/Foundation/sprint 2/fundamentals/Mathematic_Expressions/2024-10-31-operators.ipynb" class="glow-button-blue-purple">
-        Data Types
+        Math expressions
         <span class="glow-effect"></span>
     </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/for-loops/" class="glow-button-blue-purple">
