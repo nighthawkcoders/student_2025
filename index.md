@@ -394,6 +394,7 @@ div.absolute {
     <a href="http://127.0.0.1:4100/zoehe_2025/frontend/">Frontend</a>
     <a href="http://127.0.0.1:4100/zoehe_2025/python3/">Python Hacks</a>
     <a href="http://127.0.0.1:4100/zoehe_2025/HACKS/">Homework Hacks</a>
+    <a href="http://127.0.0.1:4100/zoehe_2025/sprint-3-reflection/">Sprint 3 Reflection</a>
   </div>
 <div class="dropdown">
   <button class="dropbtn">Click here for games!</button>
