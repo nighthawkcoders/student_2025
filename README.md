@@ -2,7 +2,7 @@
 
 Nighthawk Pages is a project designed to support students in their Computer Science and Software Engineering education. It offers a wide range of resources including tech talks, code examples, and educational blogs.
 
-GitHub Pages can be customized by the blogger to support computer science learnings as the student works through the pathway of using Javascript, Python/Flask, Java/Spring.  
+GitHub Pages can be customized by the blogger to support computer science learnings as the student works through the pathway of using Javascript, python3/Flask, Java/Spring.  
 
 ## Student Requirements
 
@@ -31,7 +31,7 @@ The Apache license has its roots in Fastpages.  Thus, it carries its license for
 
 ### Key Features
 
-- **Code Examples**: Provides practical coding examples in JavaScript, including a platformer game, and frontend code for user databases using Python and Java backends.
+- **Code Examples**: Provides practical coding examples in JavaScript, including a platformer game, and frontend code for user databases using python3 and Java backends.
 - **Educational Blogs**: Offers instructional content on various topics such as developer tools setup, deployment on AWS, SQL databases, machine learning, and data structures. It utilizes Jupyter Notebooks for interactive lessons and coding challenges.
 - **Tools and Integrations**: Features GitHub actions for blog publishing, Utterances for blog commenting, local development support via Makefile and scripts, and styling with the Minima Theme and SASS. It also includes a new integration with GitHub Projects and Issues.
 
@@ -55,8 +55,8 @@ The absolutes in setup up...
 **Update `_config.yml`**: You need to modify the `_config.yml` file to reflect your repository's name. This configuration is crucial because it ensures that your project's styling is correctly applied, making your deployed site look as intended rather than unstyled or broken.
 
 ```text
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+github_repo: "zoehe_2025" 
+baseurl: "/zoehe_2025"
 ```
 
 **Set Repository Name in Makefile**: Adjust the `REPO_NAME` variable in your Makefile to match your GitHub repository's name. This action facilitates the automatic updating of posts and notebooks on your local development server, improving the development process.
@@ -64,7 +64,7 @@ baseurl: "/student_2025"
 ```make
 # Configuration, override port with usage: make PORT=4200
 PORT ?= 4100
-REPO_NAME ?= student_2025
+REPO_NAME ?= zoehe_2025
 LOG_FILE = /tmp/jekyll$(PORT).log
 ```
 
@@ -88,8 +88,8 @@ Quick start.  A quick start below is a reminder, but is dependent on your knowle
 Run these commands to obtain the project, then locate into the project directory with the terminal, install an extensive set of tools, and make.
 
 ```bash
-git clone <this-repo> # git clone https://github.com/nighthawkcoders/student_2025.git 
-cd <repo-dir>/scripts # cd student_2025
+git clone <this-repo> # git clone https://github.com/nighthawkcoders/zoehe_2025.git 
+cd <repo-dir>/scripts # cd zoehe_2025
 ```
 
 #### Windows WSL and/or Ubuntu Users
@@ -132,7 +132,7 @@ Start the preview server in the terminal,
 The terminal output from `make` shows the server address. "Cmd" or "Ctl" click the http location to open the preview server in a browser. Here is an example Server address message, click on the Server address to load:...
 
   ```text
-  http://0.0.0.0:4100/student_2025/
+  http://0.0.0.0:4100/zoehe_2025/
   ```
 
 ### Regeneration of web application
@@ -146,7 +146,7 @@ Save on ".ipynb" or ".md" file activiates "regeneration". An example terminal me
 
 ### Other "make" commands
 
-Terminal messages are generated from background processes.  At any time, click return or enter in a terminal window to obtain a prompt.  Once you have the prompt you can use the terminal as needed for other tasks.  Always return to the root of project `cd ~/vscode/student_2025` for all "make" actions.
+Terminal messages are generated from background processes.  At any time, click return or enter in a terminal window to obtain a prompt.  Once you have the prompt you can use the terminal as needed for other tasks.  Always return to the root of project `cd ~/vscode/zoehe_2025` for all "make" actions.
 
 #### Stop the preview server
 
@@ -178,7 +178,7 @@ Test Jupyter Notebook conversions (ie .ipynb -> .md), this is the best choice to
 
 ### File Names in "_posts", "_notebooks"
 
-There are two primary directories for creating blogs.  The "_posts" directory is for authoring in markdown only.  The "_notebooks" allows for markdown, pythons, javascript and more.
+There are two primary directories for creating blogs.  The "_posts" directory is for authoring in markdown only.  The "_notebooks" allows for markdown, python3s, javascript and more.
 
 To name a file, use the following structure (If dates are in the future, review your config.yml setting if you want them to be viewed).  Review these naming conventions.
 
@@ -245,7 +245,7 @@ In the front matter, you can also define things like a title and description for
   toc: true
   comments: true
   layout: post
-  title: Jupyter Python Sample
+  title: Jupyter python3 Sample
   description: Example Blog!!!  This shows code and notes from hacks.
   type: ccc
   courses: { csa: {week: 5} }

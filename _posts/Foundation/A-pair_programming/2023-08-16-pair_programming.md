@@ -22,14 +22,14 @@ toc: true
     - Project Technicals, over the Trimester
       - Managing Project-based Learning (PBL) requirements for each Project (Issues, Scrum Board)
         - CSSE, CSP, CSA. Use of "JavaScript, HTML, CSS". Frontend or Presentation development.
-        - CSP. Use of "Python Functions and Classes" in a backend.
+        - CSP. Use of "python3 Functions and Classes" in a backend.
         - CSA. Use of "Java Classes and OOP" in a backend.
         - Data Structures.  The exchange between frontend and backend: Backend could be Data Frames from Pandas, "SQL"  databases, "API" data, etc.
 
 - Individual GitHub Pages Considerations
   - **Each week we will be studying Big Ideas/Key Objectivies**.  There will be Units and blogs in the schedule that will describe key objectives. In AP Classes this will include Collage Board Test Prep and PBL Tech Talks. In Articulated Courses, this will be documenting meeting objectives of the course.
-    - **GitHub (GH) Pages should be used as a project/lab notebook.** In GH Pages, you can capture Project-based Learning (PBL).  Also, in Jupyter Notebooks you can capture JavaScript, Python, and Java key learnings each week using Jupyter Notebook code cells!  
-    - BTW, using GH Pages will let you **Code and Blog at the same time**.  Jupyter Notebooks using Python and Markdown will enable running code in code cells and notes in Markdown cells. The Teachers like running code!  Jupyter Notebooks, using Python kernel can do JavaScript, Python, Bash and other languages. Additionally, there is an independent Java kernel.
+    - **GitHub (GH) Pages should be used as a project/lab notebook.** In GH Pages, you can capture Project-based Learning (PBL).  Also, in Jupyter Notebooks you can capture JavaScript, python3, and Java key learnings each week using Jupyter Notebook code cells!  
+    - BTW, using GH Pages will let you **Code and Blog at the same time**.  Jupyter Notebooks using python3 and Markdown will enable running code in code cells and notes in Markdown cells. The Teachers like running code!  Jupyter Notebooks, using python3 kernel can do JavaScript, python3, Bash and other languages. Additionally, there is an independent Java kernel.
 
 ## Hacks
 
