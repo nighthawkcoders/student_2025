@@ -3,4 +3,4 @@ nbformat
 pyyaml
 notebook
 requests
-python-dotenv
+python3-dotenv

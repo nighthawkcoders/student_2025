@@ -107,7 +107,7 @@ def create_issues():
   token = os.environ.get('GITHUB_TOKEN') # via github secrets
   
   # Call the function to get the issues data, then extract a nested data structure from the response, this corresonds to an array of issues
-  # we need to extract the specific project data, perhaps "projectsV2" in the code to yml file, so we can run CSP and CSSE with same python script
+  # we need to extract the specific project data, perhaps "projectsV2" in the code to yml file, so we can run CSP and CSSE with same python3 script
   csa_data = get_github_repository_issues(token)["data"]["organization"]["projectsV2"]["nodes"][0]["items"]["nodes"]
   # we need to move the data logic into yml file in order to have accurate week calculation
   date1 = datetime(2023, 8, 21)
