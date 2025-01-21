@@ -8,7 +8,7 @@ hide: true
 ---
 <head>
   <meta charset="utf-8">
-  <title>Binary Calculator</title>
+  <title>Binary  Calculator</title>
   <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
