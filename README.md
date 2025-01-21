@@ -2,7 +2,7 @@
 
 Nighthawk Pages is a project designed to support students in their Computer Science and Software Engineering education. It offers a wide range of resources including tech talks, code examples, and educational blogs.
 
-GitHub Pages can be customized by the blogger to support computer science learnings as the student works through the pathway of using Javascript, python3/Flask, Java/Spring.  
+GitHub Pages can be customized by the blogger to support computer science learnings as the student works through the pathway of using Javascript, python/Flask, Java/Spring.  
 
 ## Student Requirements
 
@@ -31,7 +31,7 @@ The Apache license has its roots in Fastpages.  Thus, it carries its license for
 
 ### Key Features
 
-- **Code Examples**: Provides practical coding examples in JavaScript, including a platformer game, and frontend code for user databases using python3 and Java backends.
+- **Code Examples**: Provides practical coding examples in JavaScript, including a platformer game, and frontend code for user databases using python and Java backends.
 - **Educational Blogs**: Offers instructional content on various topics such as developer tools setup, deployment on AWS, SQL databases, machine learning, and data structures. It utilizes Jupyter Notebooks for interactive lessons and coding challenges.
 - **Tools and Integrations**: Features GitHub actions for blog publishing, Utterances for blog commenting, local development support via Makefile and scripts, and styling with the Minima Theme and SASS. It also includes a new integration with GitHub Projects and Issues.
 
@@ -178,7 +178,7 @@ Test Jupyter Notebook conversions (ie .ipynb -> .md), this is the best choice to
 
 ### File Names in "_posts", "_notebooks"
 
-There are two primary directories for creating blogs.  The "_posts" directory is for authoring in markdown only.  The "_notebooks" allows for markdown, python3s, javascript and more.
+There are two primary directories for creating blogs.  The "_posts" directory is for authoring in markdown only.  The "_notebooks" allows for markdown, pythons, javascript and more.
 
 To name a file, use the following structure (If dates are in the future, review your config.yml setting if you want them to be viewed).  Review these naming conventions.
 
@@ -245,7 +245,7 @@ In the front matter, you can also define things like a title and description for
   toc: true
   comments: true
   layout: post
-  title: Jupyter python3 Sample
+  title: Jupyter python Sample
   description: Example Blog!!!  This shows code and notes from hacks.
   type: ccc
   courses: { csa: {week: 5} }

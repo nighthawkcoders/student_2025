@@ -40,7 +40,7 @@ def process_directory(directory):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 md2ipynb.py <markdown_file.md> or <directory>")
+        print("Usage: python md2ipynb.py <markdown_file.md> or <directory>")
     else:
         input_path = sys.argv[1]
         if os.path.isdir(input_path):

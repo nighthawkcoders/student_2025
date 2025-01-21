@@ -1,4 +1,4 @@
-#!/home/zoeqinhe/nighthawk/zoehe_2025/myenv/bin/python3
+#!/home/zoeqinhe/nighthawk/zoehe_2025/myenv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

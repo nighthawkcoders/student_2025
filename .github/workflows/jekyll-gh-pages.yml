@@ -44,9 +44,7 @@ jobs:
           pip install -r requirements.txt  # Install Python packages
 
       - name: Execute conversion script
-        run: |
-          source venv/bin/activate  # Activate virtual environment
-          python scripts/convert_notebooks.py  # Run your Python script
+        run: python3 scripts/convert_notebooks.py
       - name: Build with Jekyll
         run: |
           bundle exec jekyll build  # Build your Jekyll site
