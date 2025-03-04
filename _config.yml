@@ -1,11 +1,11 @@
-title: Nighthawk Pages 
-description: "Class of 2025"
-owner_name: John Mortensen
+title: Home
+description: "Class of 2026"
+owner_name: Manahil Khan
 github_username: nighthawkcoders
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+github_repo: "manahil_student_2025" 
+baseurl: "/manahil_student_2025"
 future: true
-remote_theme: jekyll/minima
+remote_theme: pages-themes/cayman@v0.2.0
 minima:
   skin: dark
   social_links:
@@ -23,4 +23,9 @@ header_pages:
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
-  - README4YML.md
+  - navigation/journey.md
+  - navigation/snake.md
+  - navigation/calculator.md
+  - navigation/cookie_clicker.md
+  # - README4YML.md
+
