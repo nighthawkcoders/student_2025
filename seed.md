@@ -44,8 +44,27 @@ These new elements are populated with data from data.chinese and displayed in th
 <img src="{{site.baseurl}}/images/table4.png" alt="api">
 
 <h>Multiple Choice Reflection:</h>
+
 - Overall Score: 41/67
-- Weaknesses: 1.B (Determine and design an appropriate method or approach to achieve the purpose), 3.B (Use abstraction to manage complexity in a program), 4.B (Determine the result of code segments), 4.C ( Identify and correct errors in algorithms and programs, including error discovery through testing). Most if not all of the questions that I missed included flowcharts, simulations, code segments, or algorithms that were difficult for me to visualize and understand in terms of coding. Howe
+- Weaknesses: 1.B (Determine and design an appropriate method or approach to achieve the purpose), 3.B (Use abstraction to manage complexity in a program), 4.B (Determine the result of code segments), 4.C ( Identify and correct errors in algorithms and programs, including error discovery through testing). Most if not all of the questions that I missed included flowcharts, simulations, code segments, or algorithms that were difficult for me to visualize and understand in terms of coding.
+- Some questions I got wrong:
+<img id="mcq1" src="{{site.baseurl}}/images/mcq1.png">
+- Incorrect answer: A
+- Correct answer: B
+
+Explanation: A is incorrect because the algorithm would end with an infinite loop meaning that if the number is a multiple of 10 being displayed 0 and then terminate. For this reason, B is correct because before terminating, it will store the integer quotient 0 in number and then terminate.
+
+<img id="mcq2" src="{{site.baseurl}}/images/mcq2.png">
+- Incorrect answer: C
+- Correct answer: A
+
+Explanation: C is incorrect because the programs initialize i to differnet values because they increment at different rates. In A however, program A and B will both print 1 2 3 4 5 6 7 8 9 10 because they will both terminate once i gets to 10.
+
+<img id="mcq3" src="{{site.baseurl}}/images/mcq3.png">
+- Incorrect answer: D
+- Correct answer: A
+
+Explanation: D is incorrect because the two line graphs have the same general shape which means that the average amount of data should remain about the same, meaning that A would be the correct answer since it's the graph on the right is 10 times greater. 
 - Strengths/Improvement: Compared to my last score of 29/67, I would say that I was generally able to improve my score and especially discovered a better understanding of some of the code segments. However, I would say that the questions with code segments were still my weakest point and often difficult for me to understand and I would like to get more practice with those types of questions. Overall, I felt more comfortable with questions that contained the roman numerals and topics such as 1.A (how the programas function).
 <center>
 <img id="mcscore" src="{{site.baseurl}}/images/score.png">
