@@ -1,9 +1,9 @@
 title: Nighthawk Pages 
 description: "Class of 2025"
-owner_name: John Mortensen
-github_username: nighthawkcoders
-github_repo: "portfolio_2025" 
-baseurl: "/portfolio_2025"
+owner_name: Zoe He
+github_username: zoeqinhe
+github_repo: "zoehe_2025" 
+baseurl: "/zoehe_2025"
 future: true
 remote_theme: jekyll/minima
 minima:
