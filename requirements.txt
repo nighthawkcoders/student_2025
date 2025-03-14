@@ -7,4 +7,5 @@ python-dotenv
 pandas
 seaborn
 scikit-learn
+numpy
 progress
