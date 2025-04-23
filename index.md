@@ -366,8 +366,7 @@ div.absolute {
 }
     </style>
 <center>
-<div style= "color: gray; font-family: courier new; font-size:20px">Hi, my name is Zoe He</div>
-<p style= "color: white; font-family: courier new; font-size:10px">(Mario can move)</p>
+
 
 <img src="totoro2.gif" alt="picture" class="center" width="172px" height="200px">
 <br>
@@ -377,8 +376,6 @@ div.absolute {
     button class="button"> Click here to see a picture!
 </a>
 <br>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1vKlnFo34ktfVDRvR1Oycz?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1JxExfOgdxVFA20nZArxOk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <div class="dropdown">
   <button class="dropbtn">Click here for more!</button>
   <div class="dropdown-content">
