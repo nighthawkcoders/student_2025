@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Color Codes and Base 64
-permalink: //
+permalink: /mood/
 description: Class of 2026
 hide: true
 ---
