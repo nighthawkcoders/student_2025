@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Verify the installation and check the Python version
+# Show the tools versions
 python --version
+bundle --version
 
 # Create a virtual environment if it doesn't exist
 if [ ! -d "venv" ]; then
@@ -13,3 +14,4 @@ source venv/bin/activate
 
 # Install the required Python packages
 pip install -r requirements.txt
+bundle install
